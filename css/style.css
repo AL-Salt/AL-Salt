@@ -1,0 +1,213 @@
+.navbar {
+    display: block;
+    background-color: rgb(232, 232, 232, 0.7);
+}
+
+.nav-link {
+    font-size: 20 !important;
+    font-weight: 300px;
+    color: #0c3e72 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.imglogo {
+    height: 90px;
+}
+
+.carousel-control-next {
+    top: 100px !important;
+    width: 50px;
+}
+
+
+/* OUTER CONTAINER */
+
+.tcontainer {
+    overflow: hidden;
+    width: 100%;
+    /* Hide scroll bar */
+}
+
+
+/* MIDDLE CONTAINER */
+
+.ticker-wrap {
+    width: 100%;
+    margin-left: 100%;
+    /* padding-left: 100%; */
+    /* Push contents to right side of screen */
+}
+
+
+/* INNER CONTAINER */
+
+@keyframes ticker {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.ticker-move {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    /* padding-right: 100%; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 15s;
+}
+
+.ticker-move:hover {
+    animation-play-state: paused;
+    /* Pause scroll on mouse hover */
+}
+
+
+/* ITEMS */
+
+.ticker-item {
+    display: inline-block;
+    /* Lay items in a horizontal line */
+    padding: 0 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .ticker-move {
+        animation-duration: 20s;
+    }
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.login {
+    font-size: 18 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.signup {
+    font-size: 18 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.list-group-item img:hover {
+    width: 35px;
+}
+
+.tickernews {
+    background-color: #0c3e72;
+}
+
+.ticker-item {
+    color: white !important;
+    font-size: 15;
+    font-family: ArialMT, Arial;
+}
+
+.cardgroups {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.newss {
+    color: white !important;
+    font-size: 23px !important;
+    font-family: GEDinarTwo-Medium, GE Dinar Two;
+    font-weight: 500px;
+}
+
+.card1 {
+    background-color: rgb(248, 172, 29, 0.93);
+    height: 313px;
+}
+
+.card2 {
+    background-color: rgb(248, 172, 29, 0.78);
+    text-align: center;
+    height: 313px;
+}
+
+.card3 {
+    background-color: rgb(248, 172, 29, 0.62);
+    text-align: center;
+    height: 313px;
+}
+
+.card4 {
+    background-color: rgb(248, 172, 29, 0.37);
+    height: 313px;
+}
+
+.carddesignNew {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.itemscontent {
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 90px;
+}
+
+.itemstext {
+    margin-right: -11px;
+    margin-top: 30px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemscontent1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.itemstext1 {
+    margin-top: 30px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemstext2 {
+    margin-top: 23px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemscontent2 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.itemstext3 {
+    margin-left: -11px;
+    margin-top: 20px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.s {
+    padding-bottom: 5px;
+}
+
+.notecontainer {
+    background-image: URL("../img/Repeat Grid 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px;
+}
+
+
+/* .listrightslider {}
+
+slidersbottom {} */
