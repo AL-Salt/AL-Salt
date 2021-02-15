@@ -306,3 +306,95 @@
 .slide-box img {
     border-radius: 10%;
 }
+
+.text_in_slid {
+    text-align: center;
+}
+
+.carousel-caption {
+    width: 560px;
+    left: 50% !important;
+    bottom: 200px !important;
+    display: flex;
+}
+
+@media (max-width: 1200px) {
+    .carousel-caption {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100% !important;
+    }
+}
+
+.carousel-control-prev {
+    left: 45.5%;
+    top: 175px;
+    width: 50px;
+    height: 90px;
+    opacity: 1.0;
+}
+
+.carousel-control-next1 {
+    left: 44%;
+    height: 90px;
+    width: 50px;
+    right: 0;
+    position: absolute;
+    top: 175px;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.background_icon_slider {
+    background-image: url("img/Rectangle 9.png");
+    padding: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/icon (1).png") !important;
+    width: 60px !important;
+    height: 100px !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/icon (2).png") !important;
+    width: 60px !important;
+    height: 100px !important;
+}
+
+.back_slider_iconss {
+    width: 160px;
+    margin: 0 auto;
+    margin-top: -236px;
+    position: relative;
+}
+
+.back_slider_iconss img {
+    height: 90px !important;
+}
+
+.text_in_slid h5 {
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-weight: 300px;
+    font-size: 30px;
+    color: #f8b12c;
+}
+
+.text_in_slid p {
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-weight: 300px;
+    font-size: 12px;
+    color: #101010;
+}
