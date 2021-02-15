@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="jquery-3.5.1.js">
     <link rel="stylesheet" href="css/style.css">
+
     <title>HomePage</title>
 </head>
 
@@ -155,8 +156,8 @@
     </nav>
     <!-- end navbar -->
 
-    <!--Start Slider-->
 
+    <!--Start Slider-->
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -168,7 +169,7 @@
 
             <div class="carousel-control-next listrightslider">
                 <ul class="list-group" aria-hidden="true">
-                    <li class="list-group-item">
+                    <li class="list-group-item imgslidestop">
                         <img src="img/font.png" alt="">
                         <img class="my-1" src="img/font2.png" alt="">
                         <img class="my-1 mr-3" src="img/font3.png" alt="">
@@ -270,24 +271,18 @@
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <!-- <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
                         <div class="bg-warning p-4 prev_nex">
                             <a class="prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
                                 <img src="img/icon (1).png" height="40px" aria-hidden="true" alt="">
                             </a>
                             <a class="nex" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
                                 <img src="img/icon (2).png" height="40px" aria-hidden="true" alt="">
-                                <!-- <span class="sr-only">Next</span> -->
                             </a>
                         </div>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/Repeat Grid 5.png" height="450px" class="d-block w-50" alt="...">
+                            <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>
@@ -296,14 +291,14 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Repeat Grid 5.png" height="450px" class="d-block w-50" alt="...">
+                            <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Repeat Grid 5.png" height="450px" class="d-block w-50" alt="...">
+                            <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -314,6 +309,86 @@
             </div>
         </div>
     </div>
+
+    <!-- 
+    <div class="container py-5">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner w-100 mx-auto" role="listbox">
+                <div class="carousel-item row active">
+                    <div class="card-group">
+                        <img src="img/Repeat Grid 5.png?text=1" height="250px" class="img-fluid mx-auto d-block col-4 col-sm-6" alt="...">
+                        <img src="img/Repeat Grid 5.png?text=2" height="250px" class="img-fluid mx-auto d-block col-4 col-sm-4" alt="...">
+                        <img src="img/Repeat Grid 5.png?text=3" height="250px" class="img-fluid mx-auto d-block col-4 col-sm-4" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item row">
+                    <div class="card-group">
+                        <img src="img/Repeat Grid 5.png?text=4" height="250px" class="img-fluid mx-auto d-block col-4" alt="...">
+                        <img src="img/Repeat Grid 5.png?text=5" height="250px" class="img-fluid mx-auto d-block col-4" alt="...">
+                        <img src="img/Repeat Grid 5.png?text=6" height="250px" class="img-fluid mx-auto d-block col-4" alt="...">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" style="margin-left:-29px;" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next ml-4" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+ -->
+
+    <?php
+        include("slider.html");
+    ?>
+
+    <!-- 
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                <div class="carousel-item col-md-3 active">
+                    <img src="img/Repeat Grid 5.png?text=1" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=2" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=3" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=4" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=5" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=6" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=7" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+                <div class="carousel-item col-md-3">
+                    <img src="img/Repeat Grid 5.png?text=8" height="250px" class="img-fluid mx-auto d-block" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div> -->
+
+
+
+
 
     <div class="container-fluid py-5 footerss">
         <div class="container">
@@ -346,9 +421,11 @@
         </div>
     </div>
 
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -14,10 +14,11 @@
     height: 90px;
 }
 
-.carousel-control-nextnew {
+
+/* .carousel-control-nextnew {
     top: 100px !important;
     width: 50px;
-}
+} */
 
 
 /* OUTER CONTAINER */
@@ -95,7 +96,7 @@
     font-family: GEDinarTwo-Light, GE Dinar Two;
 }
 
-.list-group-item img:hover {
+.imgslidestop img:hover {
     width: 35px;
 }
 
@@ -284,9 +285,28 @@
         top: 60px;
         width: 350px;
     }
+    .prev_nex {
+        padding: 5px;
+    }
 }
 
-h5 {
+@media (max-width: 990px) {
+    .carousel-caption {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100% !important;
+    }
+    .prev_nex {
+        padding: 5px !important;
+    }
+}
+
+.carousel-caption h5 {
+    color: black !important;
+}
+
+.carousel-caption p {
     color: black !important;
 }
 
@@ -296,13 +316,17 @@ h5 {
 }
 
 .endslider {
-    background-color: black;
-    /* background-image: url("../img/Layer background_news.png") !important; */
+    background-image: url("../img/background_news.png") !important;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .prev {}
 
 .nex {}
+
+
+/***********************************************************************/
