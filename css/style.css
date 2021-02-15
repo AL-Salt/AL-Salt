@@ -155,7 +155,7 @@
 }
 
 .itemstext {
-    margin-right: -11px;
+    margin-right: -45px;
     margin-top: 30px;
     font-family: GEDinarTwo-Light, GE Dinar Two;
     font-size: 20px;
@@ -188,15 +188,11 @@
 }
 
 .itemstext3 {
-    margin-left: -11px;
+    margin-left: -45px;
     margin-top: 20px;
     font-family: GEDinarTwo-Light, GE Dinar Two;
     font-size: 20px;
     color: #0c3e72;
-}
-
-.s {
-    padding-bottom: 5px;
 }
 
 .notecontainer {
@@ -204,10 +200,109 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 250px;
+    height: 600px;
+}
+
+.notecontainer1 {
+    background-image: URL("../img/background_news.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.titlecon {
+    padding-top: 80px;
+    font-family: GEDinarTwo-Medium, GE Dinar Two;
+    font-weight: 500px;
+    font-size: 30px;
+    color: #0c3e72;
+}
+
+.titlecon1 {
+    padding-top: 40px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-weight: 300;
+    font-size: 30px;
+    color: #0c3e72;
+}
+
+.logoata {
+    margin-right: -30px;
+}
+
+.logoata1 {
+    margin-left: -22px;
+}
+
+.style_content_plugin {
+    text-align: center;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.back_img_slider {
+    background-image: URL("../img/Rectangle 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo_more {
+    background-image: url("../img/Layer 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    font-weight: 300px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+}
+
+.logo_more a {
+    color: #fff !important;
 }
 
 
-/* .listrightslider {}
+/*Slider in Footer Page*/
 
-slidersbottom {} */
+.slide-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .slide-box img {
+        -ms-flex: 0 0 33.3333%;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .slide-box img {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.carousel-caption {
+    padding: 20px;
+    border-radius: .5rem;
+}
+
+.after_end_slider {
+    padding-top: 74px;
+    background-color: "rgba(224,224,225,0.34)";
+}
+
+.slide-box img {
+    border-radius: 10%;
+}
