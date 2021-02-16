@@ -1,17 +1,13 @@
 .navbar {
     display: block;
-    background-color: rgb(232, 232, 232, 0.7);
-}
-
-.nav-link {
-    font-size: 20 !important;
-    font-weight: 300px;
-    color: #0c3e72 !important;
-    font-family: GEDinarTwo-Light, GE Dinar Two;
 }
 
 .imglogo {
     height: 90px;
+}
+
+.logonaves {
+    text-align: center;
 }
 
 
@@ -98,6 +94,19 @@
 
 .imgslidestop img:hover {
     width: 35px;
+}
+
+.imgslidestop1 {
+    background-color: tomato;
+}
+
+.imgslidestop1 p {
+    width: 280px !important;
+    height: 50px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 30px;
+    color: white;
 }
 
 .tickernews {
@@ -315,6 +324,16 @@
     width: 50px;
 }
 
+.listrightslider1 {
+    padding-bottom: 190px !important;
+    width: 50px;
+}
+
+.listrightslider2 {
+    padding-top: 380px !important;
+    width: 50px;
+}
+
 .endslider {
     background-image: url("../img/background_news.png") !important;
     background-repeat: no-repeat;
@@ -324,9 +343,125 @@
     padding-bottom: 50px;
 }
 
+.slidersend {
+    padding: 90px;
+    background-color: rgb(224, 224, 225, 0.34);
+}
+
+.slidersend img {
+    height: 370px;
+    border-radius: 10%;
+}
+
+.textslider_foot {
+    margin-left: 120px;
+    top: 300px;
+    color: white;
+}
+
+.textslider_foot1 {
+    margin-left: 530px;
+    top: 300px;
+    color: white;
+}
+
+.textslider_foot2 {
+    margin-left: 900px;
+    top: 300px;
+    color: white;
+}
+
+.backupfoot {
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+    border-radius: 35px 35px 35px 35px;
+}
+
+
+/* 
 .prev {}
 
-.nex {}
+.nex {} */
 
 
 /***********************************************************************/
+
+.butedit {
+    float: right;
+    /* margin-top: -57px; */
+}
+
+.bookmark {
+    text-align: right;
+}
+
+.textpagslidesenw {
+    margin-right: 240px;
+}
+
+.submap h1 {
+    font-weight: 300px !important;
+    color: #0c3e72 !important;
+    font-family: SegoeUI-Bold, "Segoe UI" !important;
+}
+
+.submap p {
+    font-weight: 300px !important;
+    color: #707070 !important;
+    font-size: 20px;
+    font-family: Bahnschrift !important;
+}
+
+.titlecaredit {
+    background-color: #f1971e;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+    right: 85px;
+    color: white;
+}
+
+.titlecaredit1 {
+    background-color: #f1971e;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+    right: 85px;
+    color: white;
+}
+
+.titlecaredit2 {
+    background-color: #f1971e;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+    right: 80px;
+    color: white;
+}
+
+.textfootcard a {
+    font-weight: 700px !important;
+    color: #f1971e !important;
+    font-size: 15px !important;
+    font-family: SegoeUI-Bold, Segoe UI !important;
+}
+
+.txt_card {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 15px;
+    color: #434343;
+}
+
+.logo_location {
+    padding-top: 150px;
+}
