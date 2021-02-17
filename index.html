@@ -10,13 +10,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="jquery-3.5.1.js">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="GE_Dinar_Two/GE Dinar Two Light.ttf">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>HomePage</title>
+    <style>
+        .nav-item a {
+            font-size: 16px !important;
+            font-weight: bold !important;
+            color: #0c3e72 !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        }
+    </style>
 </head>
 
 <body>
 
     <!--STRAT NAVBAR-->
-    <nav class="navbar navbar-expand-xl navbar-light fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top" style="background-color: rgb(255, 255, 255,0.7);">
         <div style="float: right;">
             <a class="navbar-brand kk mr-4" href="#">
                 <img class="imglogo" src="img/HeaderLogo.png" alt="">
@@ -307,103 +317,163 @@
         </div>
     </div>
 
-    <div class="slidersend">
-        <div class="container">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+    <!-- Slider Footer -->
+    <div class="container spasing">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+            <!--Indicators-->
+            <!-- <ol class="carousel-indicators" style="background-color:black;">
+                <li style="color:white;" data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol> -->
+            <!--/.Indicators-->
+
+
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2 border-0">
+                                <img class="card-img-top sf d-block" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                <h5 class="card-title tfnew">قرارات المجلس البلدي</h5>
+                                <div class="card-body overlay">
+                                    <h4 class="card-title text tit w-100">قرارات المجلس البلدي</h4>
+                                    <p class="card-body text w-100">قرارات المجلس البلدي سشيشسشنتي لاسي شتس ايسي</p>
+                                    <div class="text tete">
+                                        asdasd
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2 border-0">
+                                <img class="card-img-top sf d-block" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                <h5 class="card-title tfnew">قرارات المجلس البلدي</h5>
+                                <div class="card-body overlay">
+                                    <h4 class="card-title text tit w-100">قرارات المجلس البلدي</h4>
+                                    <p class="card-body text w-100">قرارات المجلس البلدي سشيشسشنتي لاسي شتس ايسي</p>
+                                    <div class="text tete">
+                                        asdasd
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2 border-0">
+                                <img class="card-img-top sf d-block" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap">
+                                <h5 class="card-title tfnew">قرارات المجلس البلدي</h5>
+                                <div class="card-body overlay">
+                                    <h4 class="card-title text tit w-100">قرارات المجلس البلدي</h4>
+                                    <p class="card-body text w-100">قرارات المجلس البلدي سشيشسشنتي لاسي شتس ايسي</p>
+                                    <div class="text tete">
+                                        asdasd
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <!-- <div class="carousel-item">
+
                         <div class="row">
-                            <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                            <p style="position:absolute" class="textslider_foot">قرارات المجلس البلدي</p>
-                            <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                            <p style="position:absolute" class="textslider_foot1">دليل الإجرائات</p>
-                            <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                            <p style="position:absolute" class="textslider_foot2">مكتب البلدية</p>
+                            <div class="col-md-4">
+                                <div class="card mb-2 border-0">
+                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                    <h4 class="card-title tf">Card title</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 clearfix d-none d-md-block">
+                                <div class="card mb-2 border-0">
+                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
+                                    <h4 class="card-title tf">Card title</h4>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 clearfix d-none d-md-block">
+                                <div class="card mb-2 border-0">
+                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
+                                    <h4 class="card-title tf">Card title</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+                    <!-- Footer -->
+                    <div class="container-fluid py-5 footerss">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2 col-sm-4 my-5  text-left">
+                                    <img class="m-2" src="img/Repeat Grid 12.png" alt="">
+                                    <img class="m-2" src="img/Repeat Grid 13.png" alt="">
+                                    <img class="m-2" src="img/Repeat Grid 14.png" alt="">
+                                    <img class="m-2" src="img/XMLID_822_.png" alt="">
+                                </div>
+                                <div class="col-10 col-sm-8 text-right">
+                                    <a class="mr-1 f" href="">نبذة عن بلدية ال</a>
+                                    <a class="mr-3 f" href="">المنتجات والخدما</a>
+                                    <a class="mr-3 f" href="">الاخبار</a>
+                                    <a class="mr-3 f" href="">المركز الاعلامي</a>
+                                    <a class="mr-3 f" href="">اتصل بن</a>
+                                    <img src="img/logo_footer.png" alt="">
+                                </div>
+                            </div>
+                            <hr class="hrfooter">
+                            <div class="row">
+                                <div class="col-4 py-2 text-left" style="color:white">
+                                    <p>جميع الحقوق محفوظة & 2020 شركة جوردن كود</p>
+                                </div>
+                                <div class="col-8 text-right">
+                                    <table class="float-right">
+                                        <tr>
+                                            <td>
+                                                <img src="img/eye (1).png" alt="">
+                                            </td>
+                                            <td style="font-size: 30px;color: white; font-weight: 300px;
+                            font-family: ErasITC-Demi, Eras ITC;">
+                                                12
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                    <div class="row">
-                        <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                        <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                        <img src="img/Repeat Grid 5.png" class="d-block col-4" alt="...">
-                    </div>
-                </div> -->
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-
-        <div class="container   ">
-            <div class="my-5">
-                <div class="backupfoot">
-                    <p class="text-right">تصويت</p>
-
-                    <div class="text-right">
-                        <lable class="text-right">ما رايك في تصميمي </label>
-
-                            <input name="r" type="radio">
-                            <lable class="mr-4">ممتاز</label>
-
-                                <input name="r" type="radio">
-                                <lable class="mr-4"> جيد جدا </label>
-
-                                    <input name="r" type="radio">
-                                    <lable class="mr-4"> جيد </label>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
-    <div class="container-fluid py-5 footerss">
-        <div class="container">
-            <div class="row">
-                <div class="col-2 col-sm-6 my-3  text-center">
-                    <img class="m-2" src="img/Repeat Grid 12.png" alt="">
-                    <img class="m-2" src="img/Repeat Grid 13.png" alt="">
-                    <img class="m-2" src="img/Repeat Grid 14.png" alt="">
-                    <img class="m-2" src="img/XMLID_822_.png" alt="">
-                </div>
-                <div class="col-10 col-sm-6 text-right">
-                    <a class="mr-1 f" href="">نبذة عن بلدية ال</a>
-                    <a class="mr-3 f" href="">المنتجات والخدما</a>
-                    <a class="mr-3 f" href="">الاخبار</a>
-                    <a class="mr-3 f" href="">المركز الاعلامي</a>
-                    <a class="mr-3 f" href="">اتصل بن</a>
-                    <img src="img/ticker.png" width="127px" height="77px" alt="">
 
-                </div>
-            </div>
-            <hr class="hrfooter">
-            <div class="row">
-                <div class="col-2 bg-success text-center">
-
-                </div>
-                <div class="col-10 bg-warning text-right">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <script>
+                        $(".sf").hover(function() {
+                            $(this).css("background-color", "yellow");
+                        }, function() {
+                            $(this).css("background-color", "pink");
+                        });
+                    </script>
 
 </body>
 
