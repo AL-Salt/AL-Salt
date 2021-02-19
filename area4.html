@@ -211,58 +211,54 @@
 
     <!--End Slider-->
 
-<div class="container">
-    <div class="team-grid updiv">
-        <!-- <div class="intro">
-                <h2 class="text-center hh2">Meet Our Team</h2>
-                <p class="text-center pp">A Bootstrap 4 example layout with an Meet our team section and team members</p>
-            </div> -->
-        <div class="row people d-flex justify-content-center">
-            <div class="col-md-4 col-lg-4 item">
-                <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
-                    <div class="box" style="background-image:url(img/logo_footer.png);">
-                        <div class="cover">
-                            <!-- <h3 class="name">Tim Cook</h3> -->
-                            <a href=""><img src="img/arrow-right.png" alt=""></a>
-                            <!-- <p class="title">Android Developer</p> -->
-                            <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
+    <div class="container">
+        <div class="team-grid updiv">
+
+            <div class="row people d-flex justify-content-center">
+                <div class="col-md-4 col-lg-4 item">
+                    <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
+                        <div id="box" class="box" style="background-image:url(img/logo_footer.png); height: 250px;">
+                            <p id="testhide" style="margin-top:210px;">salkd nasd kjasd kjask djasjkd</p>
+                            <div id="cover" class="cover p-5">
+                                <a href="">
+                                    <img src="img/arrow-right.png" alt="">
+                                </a>
+                                <p class="my-5">qq salkd nasd kjasd kjask djasjkd</p>
+                            </div>
                         </div>
                     </div>
-                    <p>salkd nasd kjasd kjask djasjkd</p>
                 </div>
-            </div>
-            <div class="col-md-4 col-lg-4 item">
-                <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
-                    <div class="box" style="background-image:url(img/logo_footer.png);">
-                        <div class="cover">
-                            <!-- <h3 class="name">Tim Cook</h3> -->
-                            <a href=""><img src="img/arrow-right.png" alt=""></a>
-                            <!-- <p class="title">Android Developer</p> -->
-                            <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
+
+                <div class="col-md-4 col-lg-4 item">
+                    <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
+                        <div id="box" class="box" style="background-image:url(img/logo_footer.png); height: 250px;">
+                            <p id="testhide" style="margin-top:210px;">salkd nasd kjasd kjask djasjkd</p>
+                            <div id="cover" class="cover p-5">
+                                <a href="">
+                                    <img src="img/arrow-right.png" alt="">
+                                </a>
+                                <p class="my-5">qq salkd nasd kjasd kjask djasjkd</p>
+                            </div>
                         </div>
                     </div>
-                    <p>salkd nasd kjasd kjask djasjkd</p>
                 </div>
-            </div>
-            <div class="col-md-4 col-lg-4 item">
-                <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
-                    <div class="box" style="background-image:url(img/logo_footer.png);">
-                        <div class="cover">
-                            <!-- <h3 class="name">Tim Cook</h3> -->
-                            <a href=""><img src="img/arrow-right.png" alt=""></a>
-                            <!-- <p class="title">Android Developer</p> -->
-                            <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
+
+                <div class="col-md-4 col-lg-4 item">
+                    <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
+                        <div id="box" class="box" style="background-image:url(img/logo_footer.png); height: 250px;">
+                            <p id="testhide" style="margin-top:210px;">salkd nasd kjasd kjask djasjkd</p>
+                            <div id="cover" class="cover p-5">
+                                <a href="">
+                                    <img src="img/arrow-right.png" alt="">
+                                </a>
+                                <p class="my-5">qq salkd nasd kjasd kjask djasjkd</p>
+                            </div>
                         </div>
                     </div>
-                    <p>salkd nasd kjasd kjask djasjkd</p>
                 </div>
             </div>
-
-
-
         </div>
     </div>
-</div>
 
 
     <!-- https://freefrontend.com/bootstrap-hover-effects/ -->
@@ -310,7 +306,20 @@
         </div>
     </div>
 
-    <script type="text/javascript">
+    <script>
+        $("#box").mouseenter(function() {
+                $("#testhide").show();
+            },
+            function() {
+                $("#testhide").hide();
+            });
+
+        $("#box").mouseout(function() {
+                $("#testhide").hide();
+            },
+            function() {
+                $("#testhide").show();
+            });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

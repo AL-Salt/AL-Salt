@@ -697,7 +697,7 @@
 }
 
 .popopo p {
-    padding: 25px;
+    padding: 10px;
 }
 
 .item .cover1 {
@@ -726,6 +726,38 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.form_background1 {
+    background-color: rgb(21, 26, 30);
+}
+
+.form_background1 h4 {
+    color: #a7a7a7 !important;
+}
+
+.form_background1 {
+    color: white !important;
+}
+
+.form_background1 ::placeholder {
+    color: white !important;
+}
+
+.form_background1 select {
+    color: white !important;
+}
+
+.buttonsent {
+    background-color: rgb(248, 172, 29);
+    width: 120px;
+    margin-inline-start: auto;
+    border-radius: 20px 0px 20px 0px;
+    text-align: right;
+}
+
+.buttonsent img {
+    margin-right: 22px;
 }
 
 .form-outline input {
