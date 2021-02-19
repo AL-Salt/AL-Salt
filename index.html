@@ -177,7 +177,7 @@
             <div class="carousel-control-next listrightslider">
                 <ul class="list-group" aria-hidden="true">
                     <li class="list-group-item imgslidestop">
-                        <img src="img/font.png" alt="">
+                        <img id="modeee" src="img/font.png" alt="">
                         <img class="my-1" src="img/font2.png" alt="">
                         <img class="my-1 mr-3" src="img/font3.png" alt="">
                         <img class="my-1" src="img/picture (1).png" alt="">
@@ -293,8 +293,9 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>
-                                    Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
+                                    Nulla vitae elit libero, a p , a pharetra augue mollis interdum.
                                 </p>
+                                <button class="btn btn-warning">المزيد</button>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -302,6 +303,7 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="btn btn-warning">المزيد</button>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -309,6 +311,7 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <button class="btn btn-warning">المزيد</button>
                             </div>
                         </div>
                     </div>
@@ -326,14 +329,6 @@
                 <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
                 <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
             </div>
-            <!--/.Controls-->
-            <!--Indicators-->
-            <!-- <ol class="carousel-indicators" style="background-color:black;">
-                <li style="color:white;" data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                <li data-target="#multi-item-example" data-slide-to="1"></li>
-                <li data-target="#multi-item-example" data-slide-to="2"></li>
-            </ol> -->
-            <!--/.Indicators-->
 
 
 
@@ -385,38 +380,6 @@
                         </div>
 
                     </div>
-                    <!--/.First slide-->
-
-                    <!--Second slide-->
-                    <!-- <div class="carousel-item">
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-2 border-0">
-                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-                                    <h4 class="card-title tf">Card title</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 clearfix d-none d-md-block">
-                                <div class="card mb-2 border-0">
-                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-                                    <h4 class="card-title tf">Card title</h4>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 clearfix d-none d-md-block">
-                                <div class="card mb-2 border-0">
-                                    <img class="card-img-top sf" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-                                    <h4 class="card-title tf">Card title</h4>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
 
 
@@ -460,21 +423,20 @@
                             </div>
                         </div>
                     </div>
+                    <script>
+                        $("#modeee").click(function() {
+                            $("p").css("font-size", "25px");
+                            $("a").css("font-size", "25px");
+                            $("li a").css("font-size", "25px");
+                            $(".ticker-item").css("font-size", "25px");
 
+                            $(".ticker-item").css("background-color", "red");
 
-
-
+                        });
+                    </script>
                     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                    <script>
-                        $(".sf").hover(function() {
-                            $(this).css("background-color", "yellow");
-                        }, function() {
-                            $(this).css("background-color", "pink");
-                        });
-                    </script>
-
 </body>
 
 </html>
