@@ -625,6 +625,62 @@
     margin-bottom: 30px;
 }
 
+.itemnew {
+    margin-bottom: 30px;
+}
+
+.itemnew .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.itemnew .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 151, 30, 0.83);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.itemnew p {
+    text-align: center;
+}
+
+.itemnew:hover .cover {
+    opacity: 1;
+}
+
+.itemnew:hover .cover1 {
+    opacity: 1;
+}
+
+.itemnew .name {
+    font-weight: bold;
+    /* margin-bottom: 8px; */
+}
+
+.itemnew .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    /* margin-bottom: 20px; */
+}
+
 .item .box {
     text-align: center;
     background-repeat: no-repeat;
@@ -635,6 +691,20 @@
     overflow: hidden;
     background-size: cover;
     background-position: center;
+}
+
+.item .boxnew {
+    text-align: center;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* position: absolute;
+    height: 230px;
+    margin-top: 150px;
+    /* position: relative; */
+    overflow: hidden;
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 .item .cover {
@@ -810,4 +880,22 @@
 
 .map_section {
     background-color: #f6f6f6;
+}
+
+.slider_footer_end {
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.slider_footer_end p {
+    background-color: crimson;
+    position: absolute;
+    color: cornsilk;
+    top: 300px;
+    /* margin-left: -23px !important; */
+    max-width: 150px;
 }
