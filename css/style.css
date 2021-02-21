@@ -126,7 +126,7 @@
 
 .newss {
     color: white !important;
-    font-size: 23px !important;
+    font-size: 23px;
     font-family: GEDinarTwo-Medium, GE Dinar Two;
     font-weight: 500px;
 }
@@ -206,11 +206,13 @@
 }
 
 .notecontainer {
-    background-image: URL("../img/Repeat Grid 8.png");
+    /* background-image: URL("../img/Repeat Grid 8.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    /* height: 600px; */
+    /* padding: 150px */
+    padding-bottom: 200px;
 }
 
 .notecontainer1 {

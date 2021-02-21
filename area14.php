@@ -16,8 +16,10 @@
                                 </td>
                                 <td class="text-right">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      شستي شنتسي نتشس ينتشس  ينتشسنتي
-                                    </button>
+                                    <p> 
+                                        شستي شنتسي نتشس ينتشس  ينتشسنتي
+                                    </p>
+                                </button>
                                 </td>
                             </tr>
                         </table>
@@ -26,8 +28,10 @@
 
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body text-right">
+                    <p>        
                         شسيةىشسنت يتشس يتشس نيتشس يشنم يصيمن يصشمن يشمنشص من
-                    </div>
+                    </p> 
+                </div>
                 </div>
             </div>
 
@@ -43,7 +47,9 @@
                                 </td>
                                 <td class="text-right">
                                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
-                                       يشسي شسي شي من م من ؟ 
+                                    <p>
+                                        يشسي شسي شي من م من ؟ 
+                                    </p>
                                     </button>
                                 </td>
                             </tr>
@@ -53,9 +59,11 @@
 
                 <div id="collapsefour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body text-right">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
-                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <p>    
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                            on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                            farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </p>
                     </div>
                 </div>
             </div>

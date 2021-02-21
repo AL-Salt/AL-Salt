@@ -21,22 +21,27 @@
                 <div class="carousel-inner text-right" style="padding:50px;">
                     <div class="carousel-item active">
                         <div class="d-block w-100" style="height: 100px;overflow-y: scroll;">
-                            ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
+                           <p> ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
                             ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd
                             sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
                             ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd
                             sadasndjhasd knas dknas ddjasjdbsajkd ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100" style="height: 100px;overflow-y: scroll;">
-                            ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
+                            <p>
+                                ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
+                            </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="d-block w-100" style="height: 100px;overflow-y: scroll;">
+                        <p>
                             ssa jh as dnas sadasndjhasd sadasndjhasd knas dknas ddjasjdbsajkd
-                        </div>
+                        </p>
+                    </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

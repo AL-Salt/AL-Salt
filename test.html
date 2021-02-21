@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Toggle Between Dark and Light Mode Website using jQuery ?</title>
+    <style>
+        .dark {
+            background-color: #222;
+            color: #e6e6e6;
+        }
+        
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+        
+        .theme-switch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .theme-switch input {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <label style="margin-left: 10px;">Select Mode</label>
+    </div><br>
+    <h1>Websolutionstuff</h1>
+    <p><i>We Give Best Stuff for You</i></p>
+    <h3>Light Mode and Dark Mode</h3>
+    <script>
+        $(document).ready(function() {
+            $('#checkbox').click(function() {
+                var element = document.body;
+                element.classList.toggle("dark");
+            });
+        });
+    </script>
+</body>
+
+</html>

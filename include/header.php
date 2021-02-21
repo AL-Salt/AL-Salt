@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="GE_Dinar_Two/GE Dinar Two Light.ttf">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="jquery-3.5.1.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <title>HomePage</title>
@@ -19,6 +21,29 @@
             font-weight: 300px !important;
             color: #0c3e72 !important;
             /* font-family: !important; */
+        }
+
+        .dark {
+            background-color: #222;
+            color: #e6e6e6;
+        }
+        
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+        
+        .theme-switch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .theme-switch input {
+            display: none;
         }
     </style>
 </head>
@@ -178,10 +203,10 @@
             <div class="carousel-control-next listrightslider1">
                 <ul class="list-group" aria-hidden="true">
                     <li class="list-group-item imgslidestop">
-                        <img src="img/font.png" alt="">
-                        <img class="my-1" src="img/font2.png" alt="">
-                        <img class="my-1 mr-3" src="img/font3.png" alt="">
-                        <img class="my-1" src="img/picture (1).png" alt="">
+                        <button style="border:none;" id="bigger"><img src="img/font.png" alt=""></button>
+                        <button style="border:none;" id="smaller"><img class="my-1" src="img/font2.png" alt=""></button>
+                        <button style="border:none;" id="moreBigger"><img class="my-1 mr-3" src="img/font3.png" alt=""></button>
+                        <button style="border:none;" id="checkbox"><img class="my-1" src="img/picture (1).png" alt=""></button>
                         <img class="my-1" src="img/picture (1)0.png" alt="">
                         <img class="my-1" src="img/picture (2).png" alt="">
                         <img class="my-1" src="img/visibility.png" alt="">

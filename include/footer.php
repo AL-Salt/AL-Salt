@@ -41,6 +41,15 @@
     </div>
 
     <script>
+        $(document).ready(function() {
+            $('#checkbox').click(function() {
+                var element = document.body;
+                element.classList.toggle("dark");
+            });
+        });
+    </script>
+
+    <script>
         $("#box").mouseenter(function() {
                 $("#testhide").show();
             },
@@ -53,6 +62,32 @@
             },
             function() {
                 $("#testhide").show();
+            });
+    </script>
+
+        
+    <script>
+            var size = 30; // or any default number yo want
+            $(document).ready(function() {
+                $("#bigger").click(function() {
+
+                    $("p").css("font-size", size + 1 + "px");
+                    if(size <= 32){
+                        size++;
+                    }
+                });
+                $("#smaller").click(function() {
+                    $("p").css("font-size", size - 1 + "px");
+                    if(size >= 20){
+                        size--;
+                    }
+                });
+                $("#moreBigger").click(function() {
+                    $("p").css("font-size", size + 2 + "px");
+                    if(size <= 31){
+                        size += 2;
+                    }
+                });
             });
     </script>
 

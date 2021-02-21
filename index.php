@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="GE_Dinar_Two/GE Dinar Two Light.ttf">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <!--CSS 
 Add slick.css in your <head>
@@ -33,6 +35,34 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             font-weight: bold !important;
             color: #0c3e72 !important;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        }
+
+        .dark {
+            background-color: #222;
+            color:  rgb(248, 172, 29);
+            /* #e6e6e6 */
+        }
+        .dark table tr th{
+            color:  rgb(248, 172, 29);
+    
+        }
+        
+        .theme-switch-wrapper {
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+        
+        .theme-switch {
+            display: inline-block;
+            height: 34px;
+            position: relative;
+            width: 60px;
+            text-align: right;
+        }
+        
+        .theme-switch input {
+            display: none;
         }
     </style>
 </head>
@@ -61,7 +91,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         </div>
 
         <!-- style="float: right;" -->
-        <div class="collapse navbar-collapse text-right navstyle" style="float: right;" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-right navstyle"  id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto my-3 " dir="rtl">
 
                 <li class="nav-item active">
@@ -194,10 +224,10 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             <div class="carousel-control-next listrightslider">
                 <ul class="list-group" aria-hidden="true">
                     <li class="list-group-item imgslidestop">
-                        <img id="modeee" src="img/font.png" alt="">
-                        <img class="my-1" src="img/font2.png" alt="">
-                        <img class="my-1 mr-3" src="img/font3.png" alt="">
-                        <img class="my-1" src="img/picture (1).png" alt="">
+                        <button style="border:none;" id="bigger"><img src="img/font.png" alt=""></button>
+                        <button style="border:none;" id="smaller"><img class="my-1" src="img/font2.png" alt=""></button>
+                        <button style="border:none;" id="moreBigger"><img class="my-1 mr-3" src="img/font3.png" alt=""></button>
+                        <button style="border:none;" id="checkbox"><img class="my-1" src="img/picture (1).png" alt=""></button>
                         <img class="my-1" src="img/picture (1)0.png" alt="">
                         <img class="my-1" src="img/picture (2).png" alt="">
                         <img class="my-1" src="img/visibility.png" alt="">
@@ -221,12 +251,16 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     <div class="ticker-wrap">
                         <div class="ticker-move body_news_ticker" style="padding: 12px;">
                             <div class="ticker-item">
+                            <p>        
                                 لوريم_ايبسوم_دولار_سيت_أميت_كونسيكتيتور_أدايبا_يسكينج_أليايت_سيت_دو_أيوسمود_تيمبور_2
-                            </div>
+                            </p> 
+                        </div>
 
                             <img src="img/ticker.png" width="63" height="49" alt="">
                             <div class="ticker-item">
+                            <p>
                                 لوريم_ايبسوم_دولار_سيت_أميت_كونسيكتيتور_أدايبا_يسكينج_أليايت_سيت_دو_أيوسمود_تيمبور_2
+                            </p>
                             </div>
                             <img src="img/ticker.png" width="63" height="49" alt="">
                         </div>
@@ -271,9 +305,9 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         </div>
     </div>
 
-    <div class="notecontainer">
+    <!-- <div class="notecontainer">
         <div class="d-flex justify-content-center titlecon welcome_bald">بلدية السلط ترحب بكم</div>
-        <div class="style_content_plugin py-5">
+        <div class="style_content_plugin">
             <div class="container">
                 <p>
                     أكسير سيتاشن يللأمكو لابوريتاشن يللأمكو لابورير سيتاشيوب أ كوممودو كونسيكيوات أكسير سيتاشن يللأمكو لابورير سيتاشيوب أ كوممودو كونسيكيوات أكسير سيتاشن يللأمكو لابورير سيتاشيوب أ كوممودوو لابوريروب أ كوممودو كونودو كونسيكيوات
@@ -287,7 +321,25 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 </div>
             </div>
         </div>
+    </div> -->
+
+<div class="card notecontainer d-flex justify-content-center" style="background-image: URL('img/Repeat Grid 8.png');">
+<div class="card-body text-center">
+        <div class="container">
+            <h1 style="margin-top:100px;">سشي شسي شسي</h1>
+        <p class="card-text">
+            سشنتت ينتشس يش سي شستي نشتس يتنشس ينتسش يسشي 
+            شسن نيشسنمي نمشس ينمشسي شسي
+            شسي شس يشسي شسبة سيلنيسلن نن م نم ن ننم نم نم 
+        </p>
+        <div class="logo_more">
+            <a href="#">المزيد</a>
+        </div>
     </div>
+  </div>
+</div>
+
+
 
 
     <div class="endslider">
@@ -446,7 +498,11 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
 
             <div class="div_upper_foot">
                 <div class="row text-right my-4 p-5">
-                    <div class="col-12 col-sm-12 p-2 title_box rotate_rate">تصويت</div>
+                    <div class="col-12 col-sm-12 p-2 title_box rotate_rate">
+                    <p>
+                    تصويت
+                    </p>    
+                </div>
                     <div class="col-12 col-sm-12 p-2">
                         <table class="d-flex justify-content-end table_rates">
                             <tr>
@@ -577,6 +633,41 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             </div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#checkbox').click(function() {
+                var element = document.body;
+                element.classList.toggle("dark");
+            });
+        });
+    </script>
+
+    <script>
+            var size = 25; // or any default number yo want
+            $(document).ready(function() {
+                $("#bigger").click(function() {
+
+                    $("p").css("font-size", size + 1 + "px");
+                    //  $("label").css("font-size", size + 1 + "px");
+                    if(size <= 29){
+                        size++;
+                    }
+                });
+                $("#smaller").click(function() {
+                    $("p").css("font-size", size - 1 + "px");
+                    if(size >= 20){
+                        size--;
+                    }
+                });
+                $("#moreBigger").click(function() {
+                    $("p").css("font-size", size + 2 + "px");
+                    if(size <= 29){
+                        size += 2;
+                    }
+                });
+            });
+    </script>
 
     <script>
         // $(window).on("load", function() {
