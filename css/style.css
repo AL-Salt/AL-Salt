@@ -265,7 +265,7 @@
 }
 
 .footerss {
-    background-color: #112c40;
+    background-color: rgb(17, 44, 64);
 }
 
 .hrfooter {
@@ -312,7 +312,7 @@
 }
 
 .carousel-caption h5 {
-    color: black !important;
+    color: rgb(248, 177, 44) !important;
 }
 
 .carousel-caption p {
@@ -753,6 +753,7 @@
 
 .btnmore {
     width: 180px !important;
+    padding: 10px;
     border-radius: 10px 0px 10px 0px;
     background-color: #f1971e !important;
 }
@@ -912,4 +913,47 @@
 
 .font_h {
     font-size: 30px;
+}
+
+.div_upper_foot {
+    background-image: url("../img/back_rate.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.table_rates tr td {
+    padding: 15px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+.title_box {
+    font-size: 20px;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.table_rates2 tr td {
+    padding: 20px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+.background_end_page {
+    border: none;
+    background-position: center;
+    background-size: cover;
+    /* padding: 50px; */
+    padding-bottom: 250px;
+    padding-top: 270px;
+}
+
+.text_footer_backgr th {
+    font-size: 60px !important;
+}
+
+.text_footer_backgr td {
+    width: 100px;
+    font-size: 20px !important;
 }
