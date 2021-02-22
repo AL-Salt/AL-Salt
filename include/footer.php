@@ -1,6 +1,4 @@
 
-    <!-- Footer -->
-
 <!-- Footer -->
 
 <footer class="text-center text-white footerss" style="background-color: rgb(17, 44, 64);">

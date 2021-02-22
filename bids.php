@@ -1,17 +1,9 @@
 <?php 
     include_once("include/header.php");
 ?>
+
+<div class="container">
     <div class="team-grid updiv">
-
-        <div class="container my-5">
-            <div class="row">
-                <div class="text-right col-12 col-sm-12">
-                    <h3 class="Previous_boards">لوريم يب يسبميب سيبنتسي بشصض ضمنصب ب</h3>
-                    <br>
-                </div>
-            </div>
-
-
             <div class="row people d-flex justify-content-center">
                 <div class="col-md-4 col-lg-4 item">
                     <div class="popopo" style="box-shadow: 2px 2px 13px 1px black;">
@@ -23,7 +15,7 @@
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 1</p>
+                        <p class="text_body_par">عطاء 1</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 item">
@@ -36,7 +28,7 @@
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 2</p>
+                        <p class="text_body_par">عطاء 2</p>
                     </div>
                 </div>
 
@@ -50,13 +42,13 @@
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 3</p>
+                        <p class="text_body_par">عطاء 3</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+</div>
 
 <?php
     include_once("include/footer.php");

@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="fontawesome/css/all.css">
-
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/css.css">
     <title>HomePage</title>
@@ -59,7 +59,7 @@
             <div class="col-2 my-1">
                 <img class="ml-3 my-1" src="img/global.png " alt=" ">
                 <img class="ml-3 my-1" src="img/search.png " alt=" ">
-                <img class="ml-3 my-1" src="img/about.png " alt=" ">
+               <a href="question.php"><img class="ml-3 my-1" src="img/about.png " alt=" "></a>
             </div>
 
             <div class="col-8 logonaves">
@@ -91,7 +91,7 @@
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Municipal_council_members.php">أعضاء مجلس البلدية</a>
-                        <a class="dropdown-item" href="#">رئاسة مجلس البلدية</a>
+                        <a class="dropdown-item" href="presidency_municipal_council.php">رئاسة مجلس البلدية</a>
                         <!-- <div class="dropdown-divider"></div> -->
                         <a class="dropdown-item" href="relationship.php">علاقاتنا</a>
                         <a class="dropdown-item" href="Board_committees.php">لجان المجلس</a>
@@ -120,7 +120,8 @@
                         وسائل الاعلام
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">العدد الاخير</a>
+                        <a class="dropdown-item" href="last_issue.php">العدد الاخير</a>
+                        <a class="dropdown-item" href="news.php">الأخبار</a>
                         <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
@@ -136,7 +137,7 @@
                         فعاليات
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Activities_and_events.php">أنشطة وفعاليات</a>
+                        <a class="dropdown-item" href="activities_and_events.php">أنشطة وفعاليات</a>
                         <a class="dropdown-item" href="initiatives.php">مبادرات</a>
                         <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
@@ -161,7 +162,14 @@
                         مواضيع متعددة  
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">صفحات متعددة</a>
+                        <a class="dropdown-item" href="multiple_page.php">صفحات متعددة</a>
+                        <a class="dropdown-item" href="dawnload_center.php">مركز التحميل</a>
+                        <a class="dropdown-item" href="from_al-salt.php">مجتمع السلط</a>
+                        <a class="dropdown-item" href="about_jordan.php">عن الاردن</a>
+                        <a class="dropdown-item" href="procedures_guide.php">دليل الاجرائات</a>
+                        <a class="dropdown-item" href="from_al-salt.php">الهيكل التنظيمي</a>
+                        <a class="dropdown-item" href="bids.php">العطائات</a>
+                        <a class="dropdown-item" href="from_al-salt.php">الانجازات</a>
                         <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->
@@ -174,7 +182,8 @@
                         نبذة تاريخية
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">عن السلط</a>
+                        <a class="dropdown-item" href="from_al-salt.php">عن السلط</a>
+                        <a class="dropdown-item" href="from_al-salt.php">عن بلدية السلط</a>
                         <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a> -->

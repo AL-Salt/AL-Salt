@@ -85,7 +85,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         <div class="row upnavbar">
             <img class="ml-3 m-2" src="img/global.png " alt=" ">
             <img class="ml-3 m-2" src="img/search.png " alt=" ">
-            <img class="ml-3 m-2" src="img/about.png " alt=" ">
+            <a href="question.php"><img class="ml-3 m-2" src="img/about.png " alt=" "></a>
             <a class="ml-2 m-2 login " href="">الدخول</a>
             <a class="ml-2 m-2 signup " href="">التسجيل</a>
         </div>
@@ -593,8 +593,127 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
     </div>
 
 
+<!-- Footer -->
+
+<footer class="text-center text-white footerss" style="background-color: rgb(17, 44, 64);">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i>
+          <!-- <i class="fa fa-facebook-square" aria-hidden="true"></i> -->
+        </a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-youtube"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+     
+    </section>
+    <!-- Section: Social media -->
+
+ 
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">عدد الزائرين</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+                 <img src="img/eye (1).png" style="width:20px" alt="">
+                 12
+            </li>
+          </ul>
+        </div>
+
+
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">اتصل بنا</h5>
+
+          <ul class="list-unstyled mb-0 my-1">
+            <li>
+              <a href="opinion_us.php" class="text-white my-1">رايك بهمنا</a>
+            </li>
+            <li>
+              <a href="call_us.php" class="text-white my-1">شكاوي و اقتراحات</a>
+            </li>
+            <li>
+              <a href="join_us.php" class="text-white my-1">انضم الينا</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <!-- <h5 class="text-uppercase">Links</h5> -->
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">الرئيسية</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">نبذة عن البلدية</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">المنتجات والخدمات</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">الاحبار</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">المركز الاعلامي</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <img src="img/logo_footer.png" class="w-75" alt="">
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+     جميع الحقوق محفوظة © 2020 
+    <a class="text-white" href="http://www.jordancode.com/Default.aspx?Lng=2&P=h">شركة جوردن كود</a>
+  </div>
+ 
+    
+             
+        
+         
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <!-- Footer -->
-    <div class="container-fluid py-5 footerss">
+    <!-- <div class="container-fluid py-5 footerss">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-4 my-5  text-left">
@@ -632,7 +751,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <script>
         $(document).ready(function() {

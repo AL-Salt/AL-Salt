@@ -18,12 +18,12 @@
                         <div class="box" style="background-image:url(img/00000000000000000000000000000000000000000000000.png);   border: 1px solid black;">
                             <div class="cover1">
                                 <!-- <h3 class="name">Tim Cook</h3> -->
-                                <a href="about_jordan.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
+                                <a href="presidency_of_the_municipal_council.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
                                 <!-- <p class="title">Android Developer</p> -->
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 1</p>
+                        <p class="text_body_par">السيرة الذاتية</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 item">
@@ -31,12 +31,12 @@
                         <div class="box" style="background-image:url(img/logo_footer.png);   border: 1px solid black;">
                             <div class="cover1">
                                 <!-- <h3 class="name">Tim Cook</h3> -->
-                                <a href="about_jordan.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
+                                <a href="presidency_of_the_municipal_council.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
                                 <!-- <p class="title">Android Developer</p> -->
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 2</p>
+                        <p class="text_body_par">أنشطة الرئيس</p>
                     </div>
                 </div>
 
@@ -45,12 +45,12 @@
                         <div class="box" style="background-image:url(img/logo_footer.png);   border: 1px solid black;">
                             <div class="cover1">
                                 <!-- <h3 class="name">Tim Cook</h3> -->
-                                <a href="about_jordan.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
+                                <a href="presidency_of_the_municipal_council.php"><img class="my-3" src="img/arrow left.png" width="40px" height="40px" alt=""></a>
                                 <!-- <p class="title">Android Developer</p> -->
                                 <!-- <div class="social"><a href="#"><i class="fa fa-facebook-official">sadasdsad</i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div> -->
                             </div>
                         </div>
-                        <p class="text_body_par">مجلس 3</p>
+                        <p class="text_body_par">مهام الرئيس</p>
                     </div>
                 </div>
             </div>
