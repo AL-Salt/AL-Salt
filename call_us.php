@@ -22,12 +22,7 @@
                         <input type="email" id="form6Example5" class="form-control" placeholder="الايميل" dir="rtl" />
                     </div>
 
-                    <!-- Number input -->
-                    <div class="form-outline mb-4">
-                        <select class="form-control" dir="rtl">
-                    <option>اسم المبادرة</option>
-                  </select>
-                    </div>
+           
 
 
                     <!-- Message input -->

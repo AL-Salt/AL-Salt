@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="jquery-3.5.1.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css.css">
     <title>HomePage</title>
     <style>
         .nav-item a {
@@ -46,6 +48,7 @@
             display: none;
         }
     </style>
+
 </head>
 
 <body>
@@ -54,9 +57,9 @@
 
         <div class="row">
             <div class="col-2 my-1">
-                <img class="ml-2" src="img/global.png " alt=" ">
-                <img class="ml-2" src="img/search.png " alt=" ">
-                <img class="ml-2" src="img/about.png " alt=" ">
+                <img class="ml-3 my-1" src="img/global.png " alt=" ">
+                <img class="ml-3 my-1" src="img/search.png " alt=" ">
+                <img class="ml-3 my-1" src="img/about.png " alt=" ">
             </div>
 
             <div class="col-8 logonaves">
@@ -77,115 +80,116 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto" dir="rtl">
 
-                <li class="nav-item active">
-                    <a class="nav-link textstyelsn" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+                <li class="nav-item active text-right">
+                    <a class="nav-link textstyelsn" href="index.php">الرئيسية<span class="sr-only">(current)</span></a>
                 </li>
 
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         عن بلدية السلط
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Municipal_council_members.php">أعضاء مجلس البلدية</a>
+                        <a class="dropdown-item" href="#">رئاسة مجلس البلدية</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="relationship.php">علاقاتنا</a>
+                        <a class="dropdown-item" href="Board_committees.php">لجان المجلس</a>
+                        <a class="dropdown-item" href="Previous_Boards.php">مجالس سابقة</a>
+                        <a class="dropdown-item" href="municipal_areas.php">مناطق البلدية</a>
                     </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         خدماتنا
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="electronic_services.php">خدمات الاكترونية</a>
+                        <a class="dropdown-item" href="">خدمة نافذة واحدة</a>
                     </div>
                 </li>
 
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#">اعلانات</a>
+                <li class="nav-item text-right">
+                    <a class="nav-link" href="advertisements.php">اعلانات</a>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         وسائل الاعلام
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">العدد الاخير</a>
+                        <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item text-right">
                     <a class="nav-link" href="#">دليل الاجراءات</a>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         فعاليات
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Activities_and_events.php">أنشطة وفعاليات</a>
+                        <a class="dropdown-item" href="initiatives.php">مبادرات</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
                 </li>
 
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         السياحة
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">السياحة عن السلط</a>
+                        <a class="dropdown-item" href="#">السياحة بالاردن</a>
+                        <!-- <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         مواضيع متعددة  
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">صفحات متعددة</a>
+                        <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
                 </li>
 
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         نبذة تاريخية
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">عن السلط</a>
+                        <!-- <a class="dropdown-item" href="#">Another action</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown text-right">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         اتصل بنا
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="opinion_us.php">رايك بهمنا</a>
+                        <a class="dropdown-item" href="call_us.php">شكاوي واقتراحات</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="join_us.php">انضم الينا</a>
                     </div>
                 </li>
             </ul>
@@ -218,13 +222,13 @@
             </div>
 
             <!-- listrightslider2 -->
-            <div class="text-right" style="height: 90px; margin-top: 450px; float: right;">
+            <div class="text-right" style="height: 90px; margin-top: 400px; float: right;">
                 <ul class="list-group" aria-hidden="true">
                     <li class="list-group-item" style="width: 265px;background-color:rgb(241, 151, 30,0.9);">
                         <!-- imgslidestop1 -->
                         <p class="textpagslidesenw my-2 float-left" style="
-                        width: 157px; color:white; font-size: 30px;
-                    ">نبذة تاريخية</p>
+                        width: 157px; color:white; font-size: 25px;
+                    ">عنوان الصفحة</p>
                     </li>
                 </ul>
             </div>

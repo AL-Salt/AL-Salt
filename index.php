@@ -42,9 +42,9 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             color:  rgb(248, 172, 29);
             /* #e6e6e6 */
         }
-        .dark table tr th{
+        .dark 
+        ,slider{
             color:  rgb(248, 172, 29);
-    
         }
         
         .theme-switch-wrapper {

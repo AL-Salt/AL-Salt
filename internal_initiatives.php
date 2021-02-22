@@ -4,10 +4,10 @@
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-12 col-sm-4">
+            <!-- <div class="col-12 col-sm-4">
                 <img class="logo_location" src="img/location (3).png" alt="">
-            </div>
-            <div class="d-flex justify-content-end col-12 col-sm-8">
+            </div> -->
+            <div class="d-flex justify-content-end col-12 col-sm-12">
                 <img class="d-block" src="img/News-53.png" alt="">
             </div>
         </div>

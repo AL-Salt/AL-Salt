@@ -90,3 +90,41 @@
     font-family: SegoeUI-Bold, "Segoe UI" !important;
     font-weight: 700px !important;
 }
+
+.imgnewedit2020 {
+    border: 6px solid rgb(248, 172, 29) !important;
+}
+
+.btn_new_2020 {
+    border: none;
+    color: rgb(248, 172, 29);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Previous_boards {
+    color: rgb(12, 62, 114) !important;
+}
+
+.text_body_par {
+    color: rgb(12, 62, 114) !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text_body_par1 {
+    color: rgb(12, 62, 114) !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form_background_new {
+    background-image: url("../img/raeak.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footerss {
+    background-color: rgb(17, 44, 64) !important;
+}
