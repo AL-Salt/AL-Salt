@@ -86,7 +86,17 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
 
         <div class="row upnavbar">
             <img class="ml-3 m-2" src="img/global.png " alt=" ">
-            <img class="ml-3 m-2" src="img/search.png " alt=" ">
+            <!-- <img class="ml-3 m-2" src="img/search.png " alt=" "> -->
+            <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="" src="img/search.png " alt=" ">
+                     </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <!-- <a class="dropdown-item">خدمات الاكترونية</a> -->
+                    </div>
+                </li>   
+          </ul>
             <a href="question.php"><img class="ml-3 m-2" src="img/about.png " alt=" "></a>
             <a class="ml-2 m-2 login " href="">الدخول</a>
             <a class="ml-2 m-2 signup " href="">التسجيل</a>
