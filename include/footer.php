@@ -73,7 +73,7 @@
 
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-white">الرئيسية</a>
+              <a href="index.php" class="text-white">الرئيسية</a>
             </li>
             <li>
               <a href="#!" class="text-white">نبذة عن البلدية</a>
@@ -82,7 +82,7 @@
               <a href="#!" class="text-white">المنتجات والخدمات</a>
             </li>
             <li>
-              <a href="#!" class="text-white">الاحبار</a>
+              <a href="news.php" class="text-white">الاحبار</a>
             </li>
             <li>
               <a href="#!" class="text-white">المركز الاعلامي</a>

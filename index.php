@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="GE_Dinar_Two/GE Dinar Two Light.ttf">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=apRJxGF6"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
 
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <!--CSS 
@@ -94,20 +96,24 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         <div class="collapse navbar-collapse text-right navstyle"  id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto my-3 " dir="rtl">
 
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">الرئيسية<span class="sr-only">(current)</span></a>
+                <li class="nav-item active text-right">
+                    <a class="nav-link" href="index.php">الرئيسية<span class="sr-only">(current)</span></a>
                 </li>
 
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a id="ttt" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         عن بلدية السلط
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Municipal_council_members.php">أعضاء مجلس البلدية</a>
+                        <a class="dropdown-item" href="presidency_municipal_council.php">رئاسة مجلس البلدية</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="relationship.php">علاقاتنا</a>
+                        <a class="dropdown-item" href="Board_committees.php">لجان المجلس</a>
+                        <a class="dropdown-item" href="Previous_Boards.php">مجالس سابقة</a>
+                        <a class="dropdown-item" href="municipal_areas.php">مناطق البلدية</a>
+
                     </div>
                 </li>
 
@@ -116,43 +122,37 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         خدماتنا
                      </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="electronic_services.php">خدمات الاكترونية</a>
+                        <a class="dropdown-item" href="">خدمة نافذة واحدة</a>
                     </div>
                 </li>
 
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">اعلانات</a>
+                    <a class="nav-link" href="advertisements.php">اعلانات</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         وسائل الاعلام
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="last_issue.php">العدد الاخير</a>
+                        <a class="dropdown-item" href="news.php">الأخبار</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">دليل الاجراءات</a>
+                    <a class="nav-link" href="procedures_guide.php">دليل الاجراءات</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         فعاليات
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="activities_and_events.php">أنشطة وفعاليات</a>
+                        <a class="dropdown-item" href="initiatives.php">مبادرات</a>
                     </div>
                 </li>
 
@@ -161,11 +161,9 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         السياحة
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">السياحة عن السلط</a>
+                        <a class="dropdown-item" href="#">السياحة بالاردن</a>
                     </div>
                 </li>
 
@@ -173,11 +171,15 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         مواضيع متعددة  
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="multiple_page.php">صفحات متعددة</a>
+                        <a class="dropdown-item" href="dawnload_center.php">مركز التحميل</a>
+                        <a class="dropdown-item" href="from_al-salt.php">مجتمع السلط</a>
+                        <a class="dropdown-item" href="about_jordan.php">عن الاردن</a>
+                        <a class="dropdown-item" href="procedures_guide.php">دليل الاجرائات</a>
+                        <a class="dropdown-item" href="from_al-salt.php">الهيكل التنظيمي</a>
+                        <a class="dropdown-item" href="bids.php">العطائات</a>
+                        <a class="dropdown-item" href="from_al-salt.php">الانجازات</a>
                     </div>
                 </li>
 
@@ -187,10 +189,8 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         نبذة تاريخية
                      </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="from_al-salt.php">عن السلط</a>
+                        <a class="dropdown-item" href="from_al-salt.php">عن بلدية السلط</a>
                     </div>
                 </li>
 
@@ -198,11 +198,11 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         اتصل بنا
                      </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="opinion_us.php">رايك بهمنا</a>
+                        <a class="dropdown-item" href="call_us.php">شكاوي واقتراحات</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="join_us.php">انضم الينا</a>
                     </div>
                 </li>
             </ul>
@@ -232,7 +232,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         <img class="my-1" src="img/picture (2).png" alt="">
                         <img class="my-1" src="img/visibility.png" alt="">
                         <img class="my-1" src="img/invisible.png" alt="">
-                        <img class="my-1" src="img/microphone.png" alt="">
+                        <button type="button" id='myvoice'><img class="my-1" src="img/microphone.png" alt=""></button>
                         <img class="my-1" src="img/keyboard.png" alt="">
                     </li>
                 </ul>
@@ -280,7 +280,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 <div class="col-6 col-sm-4 card1">
                     <div class="itemscontent fade">
                         <img class="logoata" src="img/Page-1.png" alt="">
-                        <p class="itemstext">العطاءات</p>
+                        <a href="bids.php"><p class="itemstext">العطاءات</p></a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-2 card2">
@@ -292,13 +292,13 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 <div class="col-6 col-sm-2 card3">
                     <div class="itemscontent1 fade">
                         <img src="img/question (1).png" alt="">
-                        <p class="itemstext2">أسئلة شائعة</p>
+                        <a href="question.php"><p class="itemstext2">أسئلة شائعة</p></a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-4 card4">
                     <div class="itemscontent2 fade">
                         <img class="logoata1" src="img/file.png" alt="">
-                        <p class="itemstext3">مركز التحميل</p>
+                       <a href="dawnload_center.php"> <p class="itemstext3">مركز التحميل</p></a>
                     </div>
                 </div>
             </div>
@@ -752,6 +752,22 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             </div>
         </div>
     </div> -->
+
+
+    <script>
+        const listenBtn = document.getElementById('myvoice');
+        var element = document.body;
+        listenBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const msg = new SpeechSynthesisUtterance(
+                document.getElementById('ttt').textContent
+                // element.textContent
+            );
+            window.speechSynthesis.speak(msg);
+
+        });
+    </script>
 
     <script>
         $(document).ready(function() {

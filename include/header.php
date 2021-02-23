@@ -129,7 +129,7 @@
                 </li>
 
                 <li class="nav-item text-right">
-                    <a class="nav-link" href="#">دليل الاجراءات</a>
+                    <a class="nav-link" href="procedures_guide.php">دليل الاجراءات</a>
                 </li>
 
                 <li class="nav-item dropdown text-right">
