@@ -161,6 +161,21 @@
 
 
 
+    <script>
+        const listenBtn = document.getElementById('myvoice');
+        var element = document.body;
+        listenBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const msg = new SpeechSynthesisUtterance(
+                document.getElementById('ttt').textContent
+                // element.textContent
+            );
+            window.speechSynthesis.speak(msg);
+
+        });
+    </script>
+
 
 
     <script>

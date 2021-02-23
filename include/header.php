@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="jquery-3.5.1.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=apRJxGF6"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <link rel="stylesheet" href="fontawesome/css/all.css">
     
     <link rel="stylesheet" href="css/style.css">
@@ -57,19 +59,22 @@
 
         <div class="row">
             <div class="col-2 my-1">
-                <img class="ml-3 my-1" src="img/global.png " alt=" ">
-                <img class="ml-3 my-1" src="img/search.png " alt=" ">
-               <a href="question.php"><img class="ml-3 my-1" src="img/about.png " alt=" "></a>
+                
+            <a href="EN"> <img class="ml-3 my-1" data-toggle="tooltip" data-placement="top" title="اللغة الانجليزية" src="img/global.png " alt=" "></a>
+            
+                <img class="ml-3 my-1" data-toggle="tooltip" data-placement="top" title="البحث"  src="img/search.png " alt=" ">
+               <a href="question.php"><img data-toggle="tooltip" data-placement="top" title="المساعدة" class="ml-3 my-1" src="img/about.png " alt=" "></a>
             </div>
 
             <div class="col-8 logonaves">
                 <a class="navbar-brand">
-                    <img class="imglogo" src="img/HeaderLogo.png" alt="">
+                    <img data-toggle="tooltip" data-placement="top" title="بلدية السلط" class="imglogo" src="img/HeaderLogo.png" alt="">
                 </a>
             </div>
 
             <div class="bookmark col-2">
-                <img class="mr-3" src="img/book.png" alt=" ">
+                
+                <img class="mr-3"  data-toggle="tooltip" data-placement="top" title="حفظ الصفحة" src="img/book.png" alt=" ">
                 <br><br>
                 <button class="navbar-toggler butedit" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -211,11 +216,11 @@
     <div class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" height="600px" src="img/tarek.png" alt="First slide">
+                <img class="d-block w-100" height="500px" src="img/tarek.png" alt="First slide">
             </div>
             <div class="carousel-control-next listrightslider1">
                 <ul class="list-group" aria-hidden="true">
-                    <li class="list-group-item imgslidestop">
+                    <li class="list-group-item imgslidestop" style="margin-top:50px;">
                         <button style="border:none;" id="bigger"><img src="img/font.png" alt=""></button>
                         <button style="border:none;" id="smaller"><img class="my-1" src="img/font2.png" alt=""></button>
                         <button style="border:none;" id="moreBigger"><img class="my-1 mr-3" src="img/font3.png" alt=""></button>
@@ -231,12 +236,12 @@
             </div>
 
             <!-- listrightslider2 -->
-            <div class="text-right" style="height: 90px; margin-top: 400px; float: right;">
+            <div class="text-right" style="height: 90px; margin-top: 360px; float: right;">
                 <ul class="list-group" aria-hidden="true">
-                    <li class="list-group-item" style="width: 265px;background-color:rgb(241, 151, 30,0.9);">
+                    <li class="list-group-item" style="width: 270px;background-color:rgb(241, 151, 30,0.9);">
                         <!-- imgslidestop1 -->
                         <p class="textpagslidesenw my-2 float-left" style="
-                        width: 157px; color:white; font-size: 25px;
+                        width: 220px; color:white; font-size: 25px;
                     ">عنوان الصفحة</p>
                     </li>
                 </ul>

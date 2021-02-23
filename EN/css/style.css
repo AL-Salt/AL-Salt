@@ -1,0 +1,961 @@
+.navbar {
+    display: block;
+}
+
+.imglogo {
+    height: 90px;
+}
+
+.logonaves {
+    text-align: center;
+}
+
+
+/* .carousel-control-nextnew {
+    top: 100px !important;
+    width: 50px;
+} */
+
+
+/* OUTER CONTAINER */
+
+.tcontainer {
+    overflow: hidden;
+    width: 100%;
+    /* Hide scroll bar */
+}
+
+
+/* MIDDLE CONTAINER */
+
+.ticker-wrap {
+    width: 100%;
+    margin-right: 100%;
+    /* padding-left: 100%; */
+    /* Push contents to right side of screen */
+}
+
+
+/* INNER CONTAINER */
+
+@keyframes ticker {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.ticker-move {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 15s;
+}
+
+.ticker-move:hover {
+    animation-play-state: paused;
+    /* Pause scroll on mouse hover */
+}
+
+
+/* ITEMS */
+
+.ticker-item {
+    display: inline-block;
+    /* Lay items in a horizontal line */
+    padding: 0 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .ticker-move {
+        animation-duration: 20s;
+    }
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.login {
+    font-size: 18 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.signup {
+    font-size: 18 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.imgslidestop img:hover {
+    width: 35px;
+}
+
+.imgslidestop1 {
+    background-color: tomato;
+}
+
+.imgslidestop1 p {
+    width: 280px !important;
+    height: 50px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 30px;
+    color: white;
+}
+
+.tickernews {
+    background-color: #0c3e72;
+}
+
+.ticker-item {
+    color: white !important;
+    font-size: 15;
+    font-family: ArialMT, Arial;
+}
+
+.cardgroups {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.newss {
+    color: white !important;
+    font-size: 23px;
+    font-family: GEDinarTwo-Medium, GE Dinar Two;
+    font-weight: 500px;
+}
+
+.card1 {
+    background-color: rgb(248, 172, 29, 0.93);
+    height: 313px;
+}
+
+.card2 {
+    background-color: rgb(248, 172, 29, 0.78);
+    text-align: center;
+    height: 313px;
+}
+
+.card3 {
+    background-color: rgb(248, 172, 29, 0.62);
+    text-align: center;
+    height: 313px;
+}
+
+.card4 {
+    background-color: rgb(248, 172, 29, 0.37);
+    height: 313px;
+}
+
+.carddesignNew {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.itemscontent {
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 90px;
+}
+
+.itemstext {
+    margin-right: -45px;
+    margin-top: 30px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemscontent1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.itemstext1 {
+    margin-top: 30px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemstext2 {
+    margin-top: 23px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.itemscontent2 {
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.itemstext3 {
+    margin-left: -45px;
+    margin-top: 20px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+    color: #0c3e72;
+}
+
+.notecontainer {
+    /* background-image: URL("../img/Repeat Grid 8.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 600px; */
+    /* padding: 150px */
+    padding-bottom: 200px;
+}
+
+.notecontainer1 {
+    background-image: URL("../img/background_news.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.titlecon {
+    padding-top: 80px;
+    font-family: GEDinarTwo-Medium, GE Dinar Two;
+    font-weight: 500px;
+    font-size: 30px;
+    color: #0c3e72;
+}
+
+.titlecon1 {
+    padding-top: 40px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-weight: 300;
+    font-size: 30px;
+    color: #0c3e72;
+}
+
+.logoata {
+    margin-left: 200px !important;
+}
+
+.logoata1 {
+    margin-left: -22px;
+}
+
+.style_content_plugin {
+    text-align: center;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+}
+
+.logo_more {
+    background-image: url("../img/Layer 2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    font-weight: 300px;
+    font-family: GEDinarTwo-Light, GE Dinar Two;
+    font-size: 20px;
+}
+
+.logo_more a {
+    color: #fff !important;
+}
+
+.footerss {
+    background-color: rgb(17, 44, 64);
+}
+
+.hrfooter {
+    background-color: white;
+}
+
+.f {
+    font-family: SegoeUI, "Segoe UI";
+    font-weight: 400px;
+    color: white;
+}
+
+.prev_nex {
+    margin-bottom: 150px;
+}
+
+.carousel-caption {
+    right: 680px;
+    top: 60px;
+    width: 350px;
+}
+
+@media (max-width: 1200px) {
+    .carousel-caption {
+        right: 530px;
+        top: 60px;
+        width: 350px;
+    }
+    .prev_nex {
+        padding: 5px;
+        margin-right: 32px;
+    }
+}
+
+@media (max-width: 990px) {
+    .carousel-caption {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100% !important;
+    }
+    .prev_nex {
+        padding: 5px !important;
+    }
+}
+
+.carousel-caption h5 {
+    color: rgb(248, 177, 44);
+}
+
+.carousel-caption p {
+    color: black !important;
+}
+
+.listrightslider {
+    padding-top: 65px;
+    width: 50px;
+}
+
+.listrightslider1 {
+    padding-bottom: 190px !important;
+    width: 50px;
+}
+
+.listrightslider2 {
+    padding-top: 380px !important;
+    width: 50px;
+}
+
+.endslider {
+    background-image: url("../img/background_news.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slidersend {
+    padding: 90px;
+    background-color: rgb(224, 224, 225, 0.34);
+}
+
+.slidersend img {
+    height: 370px;
+    border-radius: 10%;
+}
+
+.textslider_foot {
+    margin-left: 120px;
+    top: 300px;
+    color: white;
+}
+
+.textslider_foot1 {
+    margin-left: 530px;
+    top: 300px;
+    color: white;
+}
+
+.textslider_foot2 {
+    margin-left: 900px;
+    top: 300px;
+    color: white;
+}
+
+.backupfoot {
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+    border-radius: 35px 35px 35px 35px;
+}
+
+
+/* 
+.prev {}
+
+.nex {} */
+
+
+/***********************************************************************/
+
+.butedit {
+    float: right;
+    /* margin-top: -57px; */
+}
+
+.bookmark {
+    text-align: right;
+}
+
+.textpagslidesenw {
+    margin-right: 240px;
+}
+
+.submap h1 {
+    font-weight: 300px !important;
+    color: #0c3e72 !important;
+    font-family: SegoeUI-Bold, "Segoe UI" !important;
+}
+
+.submap p {
+    font-weight: 300px !important;
+    color: #707070 !important;
+    font-size: 20px;
+    font-family: Bahnschrift !important;
+}
+
+.titlecaredit {
+    background-color: #f1971e;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+    right: 85px;
+    color: white;
+}
+
+.titlecaredit1 {
+    background-color: #f1971e;
+    color: white;
+}
+
+.location_txt {
+    top: -46px;
+}
+
+.titlecaredit2 {
+    background-color: #f1971e;
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    top: 220px;
+    position: absolute;
+    right: 80px;
+    color: white;
+}
+
+.textfootcard a {
+    font-weight: 700px !important;
+    color: #f1971e !important;
+    font-size: 15px !important;
+    font-family: SegoeUI-Bold, Segoe UI !important;
+}
+
+.txt_card {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 15px;
+    color: #434343;
+}
+
+.logo_location {
+    padding-top: 150px;
+}
+
+.sf {
+    border-radius: 20px;
+    height: 350px;
+}
+
+.tit {
+    margin-top: -100px;
+}
+
+.tete {
+    border-radius: 20px 0px 20px 0px;
+    padding: 10px;
+    background-color: #f8ac1d;
+    margin-top: 100px !important;
+    width: 180px !important;
+}
+
+.tfnew {
+    position: absolute;
+    bottom: 40px;
+    left: 110px;
+    color: cornsilk;
+}
+
+.tf {
+    position: absolute;
+    bottom: 70px;
+    left: 110px;
+    color: cornsilk;
+}
+
+.spasing {
+    padding-top: 60px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0c3e72;
+    /* background-color: rgba(63, 63, 216, 0.795); */
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.animation {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.wrapper {
+    width: 80%;
+    padding: 4%;
+    margin: 20px auto;
+    background: #fff;
+}
+
+.wrapper.cards {
+    background: 0;
+    width: 88%;
+    padding: 20px 0 0 0;
+}
+
+
+/* ****************************************** */
+
+.cart-button {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(26, 36, 63, 0.78);
+    margin-top: -169px;
+    width: 100%;
+    padding: 72px 16px;
+    z-index: 1;
+    text-align: center;
+}
+
+.cart-button:hover .cart-dropdown {
+    display: block;
+}
+
+
+/* *********************************** */
+
+
+/*************************/
+
+
+/* body {
+    background-image: linear-gradient(#3F51B5, #1A237E);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+} */
+
+.pp {
+    color: #fff;
+}
+
+.hh2 {
+    font-weight: bold;
+    /* margin-bottom: 40px;
+    padding-top: 40px; */
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    .hs2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.intro {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.intro p {
+    margin-bottom: 0;
+}
+
+.people {
+    padding: 50px 0;
+    cursor: pointer
+}
+
+.item {
+    margin-bottom: 30px;
+}
+
+.itemnew {
+    margin-bottom: 30px;
+}
+
+.itemnew .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.itemnew .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 151, 30, 0.83);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.itemnew p {
+    text-align: center;
+}
+
+.itemnew:hover .cover {
+    opacity: 1;
+}
+
+.itemnew:hover .cover1 {
+    opacity: 1;
+}
+
+.itemnew .name {
+    font-weight: bold;
+    /* margin-bottom: 8px; */
+}
+
+.itemnew .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    /* margin-bottom: 20px; */
+}
+
+.item .box {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.item .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 151, 30, 0.83);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item .covernew {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 62, 114, 0.7);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item p {
+    text-align: center;
+}
+
+.item:hover .cover {
+    opacity: 1;
+}
+
+.item:hover .covernew {
+    opacity: 1;
+}
+
+.item:hover .cover1 {
+    opacity: 1;
+}
+
+.item .name {
+    font-weight: bold;
+    /* margin-bottom: 8px; */
+}
+
+.item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bbd8fb;
+    letter-spacing: 2px;
+    font-size: 13px;
+    /* margin-bottom: 20px; */
+}
+
+.btnmore {
+    width: 180px !important;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #f1971e !important;
+}
+
+.social {
+    font-size: 18px;
+}
+
+.social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.social a:hover {
+    opacity: 1;
+}
+
+.updiv {
+    margin-top: 100px;
+}
+
+.popopo p {
+    padding: 10px;
+}
+
+.item .cover1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 36, 63, 0.78);
+    transition: opacity 0.15s ease-in;
+    opacity: 0;
+    padding-top: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.body_mobadara {
+    font-size: 30px !important;
+    font-weight: bold !important;
+    color: #0c3e72 !important;
+    font-family: GEDinarTwo-Light, GE Dinar Two !important;
+}
+
+.form_background {
+    background-image: url("../img/back_form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form_background1 {
+    background-color: rgb(21, 26, 30);
+}
+
+.form_background1 h4 {
+    color: #a7a7a7 !important;
+}
+
+.form_background1 {
+    color: white !important;
+}
+
+.form_background1 ::placeholder {
+    color: white !important;
+}
+
+.form_background1 select {
+    color: white !important;
+}
+
+.buttonsent {
+    background-color: rgb(248, 172, 29);
+    width: 120px;
+    margin-inline-start: auto;
+    border-radius: 20px 0px 20px 0px;
+    text-align: right;
+}
+
+.buttonsent img {
+    margin-right: 22px;
+}
+
+.form-outline input {
+    border: none;
+    border-bottom: 0.1px solid gray;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-outline select {
+    border: none;
+    border-bottom: 0.1px solid gray;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-outline textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.titleh444 h4 {
+    color: #0c3e72;
+}
+
+.table_page tr {
+    text-align: right;
+}
+
+.mar_tit {
+    margin-top: 10px;
+}
+
+.groundspaa {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/Repeat\ Grid\ 26.png");
+}
+
+.div_map {
+    padding-top: 30px;
+}
+
+.divedit_warning {
+    margin-bottom: -83px;
+    /* margin-right: -49px; */
+    position: absolute;
+    width: 240px;
+    right: -10px;
+    padding: 32px;
+}
+
+.map_section {
+    background-color: #f6f6f6;
+}
+
+.slider_footer_end {
+    margin: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.slider_footer_end p {
+    position: absolute;
+    color: cornsilk;
+    top: 270px;
+    max-width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.font_h {
+    font-size: 30px;
+}
+
+.div_upper_foot {
+    background-image: url("../img/back_rate.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.table_rates tr td {
+    padding: 15px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+.title_box {
+    font-size: 20px;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+.table_rates2 tr td {
+    padding: 20px;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+
+.background_end_page {
+    border: none;
+    background-position: center;
+    background-size: cover;
+    /* padding: 50px; */
+    padding-bottom: 250px;
+    padding-top: 270px;
+}
+
+.text_footer_backgr th {
+    font-size: 60px !important;
+}
+
+.text_footer_backgr td {
+    width: 100px;
+    font-size: 20px !important;
+}

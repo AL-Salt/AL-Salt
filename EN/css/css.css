@@ -1,0 +1,168 @@
+/* Navbar */
+
+.navstyle {
+    color: rgb(12, 62, 114) !important;
+    font-size: 20px !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300px !important;
+}
+
+.upnavbar {
+    font-size: 18px !important;
+    color: #0c3e72 !important;
+    font-family: SegoeUI, "Segoe UI" !important;
+}
+
+.titlenew_header_right {
+    color: rgb(255, 255, 255) !important;
+    font-size: 23px !important;
+    font-family: GEDinarTwo-Medium, "GE Dinar Two" !important;
+    font-weight: 500px !important;
+}
+
+.body_news_ticker {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-family: ArialMT, Arial !important;
+}
+
+.center_home_design {
+    color: rgb(12, 62, 114) !important;
+    font-size: 20 !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300 !important;
+}
+
+.welcome_bald {
+    color: rgb(12, 62, 114) !important;
+    font-size: 30px !important;
+    font-family: GEDinarTwo-Medium, "GE Dinar Two" !important;
+    font-weight: 500px !important;
+}
+
+.title_news_slider_arrow {
+    color: rgb(12, 62, 114) !important;
+    font-size: 30px !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300px !important;
+}
+
+.body_news_slider_arrow {
+    transform: translate(600, 1801) !important;
+    color: rgb(12, 62, 114) !important;
+    font-size: 20px !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300px !important;
+}
+
+.slider_multi_arrow {
+    color: rgb(248, 177, 44);
+    font-size: 30px !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300px !important;
+}
+
+.slider_card_craz {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: GEDinarTwo-Light, "GE Dinar Two";
+    font-weight: 300px;
+}
+
+.hover_up_slider_card {
+    transform: translate(980, 2549);
+    fill: rgb(255, 255, 255);
+    font-size: 30;
+    font-family: GEDinarTwo-Light, "GE Dinar Two";
+    font-weight: 300;
+}
+
+.text_up_hover_card {
+    color: rgb(255, 255, 255) !important;
+    font-size: 12px !important;
+    font-family: GEDinarTwo-Light, "GE Dinar Two" !important;
+    font-weight: 300px !important;
+}
+
+.rotate_rate {
+    color: rgb(8, 34, 58) !important;
+    font-size: 20px !important;
+    font-family: SegoeUI-Bold, "Segoe UI" !important;
+    font-weight: 700px !important;
+}
+
+.imgnewedit2020 {
+    border: 6px solid rgb(248, 172, 29) !important;
+}
+
+.btn_new_2020 {
+    border: none;
+    color: rgb(248, 172, 29);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Previous_boards {
+    color: rgb(12, 62, 114) !important;
+}
+
+.text_body_par {
+    color: rgb(12, 62, 114) !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text_body_par1 {
+    color: rgb(12, 62, 114) !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form_background_new {
+    background-image: url("../img/raeak.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footerss {
+    background-color: rgb(17, 44, 64) !important;
+}
+
+.carousel-caption {
+    right: 680px !important;
+    top: 60px;
+    width: 350px;
+}
+
+@media (max-width: 1200px) {
+    .carousel-caption {
+        right: 530px;
+        top: 60px;
+        width: 350px;
+    }
+    .prev_nex {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 990px) {
+    .carousel-caption {
+        display: none !important;
+    }
+    .carousel-item img {
+        width: 100% !important;
+    }
+    .prev_nex {
+        margin-right: -45px;
+        padding: 5px !important;
+    }
+}
+
+.carousel-caption h5 {
+    color: rgb(248, 177, 44) !important;
+}
+
+.carousel-caption p {
+    color: black !important;
+}

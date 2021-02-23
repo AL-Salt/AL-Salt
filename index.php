@@ -85,14 +85,23 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         </div>
 
         <div class="row upnavbar">
-            <img class="ml-3 m-2" src="img/global.png " alt=" ">
+        <a href="EN"> <img data-toggle="tooltip" data-placement="top" title="اللغة العربية" class="ml-3 m-2" src="img/global.png " alt=" "></a>
+           
             <!-- <img class="ml-3 m-2" src="img/search.png " alt=" "> -->
             <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img class="" src="img/search.png " alt=" ">
                      </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" style="color:black;" type="button">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                    </div>
                     <!-- <a class="dropdown-item">خدمات الاكترونية</a> -->
                     </div>
                 </li>   
@@ -242,7 +251,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         <img class="my-1" src="img/picture (2).png" alt="">
                         <img class="my-1" src="img/visibility.png" alt="">
                         <img class="my-1" src="img/invisible.png" alt="">
-                        <button type="button" id='myvoice'><img class="my-1" src="img/microphone.png" alt=""></button>
+                        <button type="button" id=''><img class="my-1" src="img/microphone.png" alt=""></button>
                         <img class="my-1" src="img/keyboard.png" alt="">
                     </li>
                 </ul>
@@ -373,7 +382,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-none d-md-block" style="margin-top:-75px;">
                                 <h5 class="slider_multi_arrow">لوريم ايبسوم</h5>
                                 <p>
                                     شسيتنشستن ينتشسي نتشس ينتسيش نتشس نتي سنتي نتسشينت
@@ -384,7 +393,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         </div>
                         <div class="carousel-item">
                             <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-none d-md-block" style="margin-top:-75px;">
                                 <h5 class="slider_multi_arrow">لوريم ايبسوم</h5>
                                 <p>
                                     شسيتنشستن ينتشسي نتشس ينتسيش نتشس نتي سنتي نتسشينت
@@ -395,7 +404,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         </div>
                         <div class="carousel-item">
                             <img src="img/Repeat Grid 5.png" height="400px" class="d-block w-50" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption d-none d-md-block" style="margin-top:-75px;">
                                 <h5 class="slider_multi_arrow">لوريم ايبسوم</h5>
                                 <p>
                                     شسيتنشستن ينتشسي نتشس ينتسيش نتشس نتي سنتي نتسشينت شسيتنشستن ينتشسي نتشس ينتسيش نتشس نتي سنتي نتسشينت
