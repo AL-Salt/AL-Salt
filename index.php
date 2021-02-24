@@ -324,23 +324,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         </div>
     </div>
 
-    <!-- <div class="notecontainer">
-        <div class="d-flex justify-content-center titlecon welcome_bald">بلدية السلط ترحب بكم</div>
-        <div class="style_content_plugin">
-            <div class="container">
-                <p>
-                    أكسير سيتاشن يللأمكو لابوريتاشن يللأمكو لابورير سيتاشيوب أ كوممودو كونسيكيوات أكسير سيتاشن يللأمكو لابورير سيتاشيوب أ كوممودو كونسيكيوات أكسير سيتاشن يللأمكو لابورير سيتاشيوب أ كوممودوو لابوريروب أ كوممودو كونودو كونسيكيوات
-                </p>
-
-                <p class="py-2">
-                    يوات أكسير سيتاشن يللأاشيوب أ أ كوممودو كونسي يوات أكسير سيتاشن يللأاشيوب أ أ كوممودو كونسي
-                </p>
-                <div class="logo_more">
-                    <a href="#">المزيد</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 <div class="card notecontainer d-flex justify-content-center" style="background-image: URL('img/Repeat Grid 8.png');">
 <div class="card-body text-center">
@@ -357,9 +340,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
     </div>
   </div>
 </div>
-
-
-
 
     <div class="endslider">
         <div class="container">
@@ -548,62 +528,9 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             </div>
         </div>
 
-        <!-- <div class="card d-block">
-            <div class="card-body">
-                <blockquote class="blockquote mb-0 my-5">
-                    <div class="editimages_footer w-100 h-100">
-                        <img src="img/Repeat Grid 11.png" class="w-100 h-100" alt="">
-                    </div>
-                    <div class="d-flex" style="position: absolute; margin-top: -150px;">
-                        <div class="mr-auto">
-                            <div class="p-2">تطبيق بلدية</div>
-                            <div class="p-2">السلط الكبرى</div>
-                        </div>
-                        <div class="text_footer_backgr">
-                            <table>
-                                <tr>
-                                    <th>السلط</th>
-                                    <td>كل الطرق تؤدي الى</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </blockquote>
-            </div>
-        </div> -->
+      
     </div>
-    <!-- 
-    <div class="card background_end_page" style=" background-image: url('img/Repeat\ Grid\ 11.png');">
-        <div class="card-body">
-            <blockquote class="blockquote mb-0 my-5">
-                <div class="d-flex">
-                    <div class="mr-auto">
-                        <div class="p-2">تطبيق بلدية</div>
-                        <div class="p-2">السلط الكبرى</div>
-                    </div>
-                    <div class="text_footer_backgr">
-                        <table>
-                            <tr>
-                                <th>السلط</th>
-                                <td>كل الطرق تؤدي الى</td>
-                            </tr>
-                        </table>
-                        <hr style="border: 1px solid white;">
-                        <table class="text-center">
-                            <tr style="background-color: red;">
-                                <td colspan="2">حمل التطبيق الان</td>
-                            </tr>
-                            <tr class="bg-white">
-                                <td>sadasdsad</td>
-                                <td>sadjk askjd bajksdb</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </blockquote>
-        </div>
-    </div>
- -->
+   
 
     <div class="card" style="border:none;background-color: rgba(224,224,225,0.34); margin-top:-48px ;">
         <div class="card-img">
@@ -731,46 +658,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-    <!-- Footer -->
-    <!-- <div class="container-fluid py-5 footerss">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-sm-4 my-5  text-left">
-                    <img class="m-2" src="img/Repeat Grid 12.png" alt="">
-                    <img class="m-2" src="img/Repeat Grid 13.png" alt="">
-                    <img class="m-2" src="img/Repeat Grid 14.png" alt="">
-                    <img class="m-2" src="img/XMLID_822_.png" alt="">
-                </div>
-                <div class="col-6 col-sm-8 text-right">
-                    <a class="mr-1 f" href="">نبذة عن بلدية ال</a>
-                    <a class="mr-3 f" href="">المنتجات والخدما</a>
-                    <a class="mr-3 f" href="">الاخبار</a>
-                    <a class="mr-3 f" href="">المركز الاعلامي</a>
-                    <a class="mr-3 f" href="">اتصل بن</a>
-                    <img src="img/logo_footer.png" alt="">
-                </div>
-            </div>
-            <hr class="hrfooter">
-            <div class="row">
-                <div class="col-4 py-2 text-left" style="color:white">
-                    <p>جميع الحقوق محفوظة & 2020 شركة جوردن كود</p>
-                </div>
-                <div class="col-8 text-right">
-                    <table class="float-right">
-                        <tr>
-                            <td>
-                                <img src="img/eye (1).png" alt="">
-                            </td>
-                            <td style="font-size: 30px;color: white; font-weight: 300px;
-                            font-family: ErasITC-Demi, Eras ITC;">
-                                12
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 
     <script>
@@ -824,26 +711,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
     </script>
 
     <script>
-        // $(window).on("load", function() {
-        //     $(window).scroll(function() {
-        //         var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-        //         $(".fade").each(function() {
-        //             /* Check the location of each desired element */
-        //             var objectBottom = $(this).offset().top + $(this).outerHeight();
 
-        //             /* If the element is completely within bounds of the window, fade it in */
-        //             if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        //                 if ($(this).css("opacity") == 0) {
-        //                     $(this).fadeTo(100, 1);
-        //                 }
-        //             } else { //object goes out of view (scrolling up)
-        //                 if ($(this).css("opacity") == 1) {
-        //                     $(this).fadeTo(100, 0);
-        //                 }
-        //             }
-        //         });
-        //     }).scroll(); //invoke scroll-handler on page-load
-        // });
 
         $(document).ready(function() {
             $('.fade').each(function(i) {
@@ -854,24 +722,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
             });
         });
 
-        // //image fade in
-        // //set image display none
-        // $("img").css("display", "none");
-        // //call the image with fadeIn effect
-        // $("img").fadeIn(5000, function() {
-        //     $(this).css("display", "normal");
-        // });
-
-
-        // $(document).ready(function() {
-        //     $('div').fadeOut(1);
-        //     $('div').fadeIn(1000);
-        // });
-
-
-        // $(document).ready(function() {
-        //     $('div.hidden').fadeIn(1000).removeClass('hidden');
-        // });
+    
     </script>
 
     <script>
@@ -1007,8 +858,32 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
+            },  {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }, {
+                breakpoint: 365,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 355,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },{
                 breakpoint: 375,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },{
+                breakpoint: 360,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1

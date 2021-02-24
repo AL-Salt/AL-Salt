@@ -130,6 +130,31 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 animation-duration: 20s;
             }
         }
+        
+        .homepage_text {
+            font-family: GEDinarTwo-Light, GE Dinar Two;
+            font-size: 20px;
+            color: #0c3e72 !important;
+        }
+        .card_style1{
+            border:none;
+            background-color: rgb(248, 172, 29, 0.93);
+        }
+        .card_style2{
+            border:none;
+            background-color: rgb(248, 172, 29, 0.78);
+        }
+        .card_style3{
+            border:none;
+            background-color: rgb(248, 172, 29, 0.62);
+        }
+        .card_style4{
+            border:none;
+            background-color: rgb(248, 172, 29, 0.37);
+        }
+        .card_group_style{
+            border:none;
+        }
     </style>
 </head>
 
@@ -137,7 +162,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
 
     <!--STRAT NAVBAR-->
     <nav class="navbar navbar-expand-xl navbar-light fixed-top" style="background-color: rgb(255, 255, 255,0.7);">
-        <div>
             <div style="float: left;">
                 <a class="navbar-brand kk mr-2" href="#">
                     <img class="imglogo" src="img/HeaderLogo.png" alt="">
@@ -146,41 +170,91 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
               <span class="navbar-toggler-icon"></span>
             </button>
             </div>
-        </div>
 
-        <div class="row upnavbar">
-            <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="" src="img/search.png " alt=" ">
-                     </a>
-                    <div class="dropdown-menu dropdown-menu-right" style="width:300px;background-color:rgb(0,0,0,0);border:none;" aria-labelledby="navbarDropdown">
-                    <div class="input-group">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-secondary" style="color:black;background-color:white;border-radius :100%;" type="button">
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <input style="border-radius:10px 10px 10px 10px;" type="text" class="form-control" placeholder="Search" aria-label="" aria-describedby="basic-addon1" style="text-align:left;">
-                    </div>
-                    <!-- <a class="dropdown-item">خدمات الاكترونية</a> -->
-                    </div>
-                </li>   
-          </ul>
-            <a href="question.php"><img class="ml-3 m-2" src="img/about.png " alt=" "></a>
-            <!-- <img class="ml-3 m-2" src="img/global.png " alt=" "> -->
-            <a href="../"> <img class="ml-3 m-2" src="img/global.png " alt=" "></a>
+            <div>
+                <table class="w-25">
+                    <tr>
+                        <td>
+                            <form action="" method="post">  
+                                <div class="dropdown" style="background-color:rgb(0,0,0,0);">
+                                    <button style="background-color:rgb(0,0,0,0);border:none;" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img class="" src="img/search.png" width="30px">
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">
+                                            <input type="text" name="t1" placeholder="Search" class="text-left" style="padding:4px;">
+                                            <button class="btn btn-success w-25">
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </td>
+                        
+                        <td>
+                            <div class="mr-4">
+                                <img class="" src="img/about.png" width="30px">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="mr-4">
+                                <a href="../"><img class="" src="img/global.png" width="30px"></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="mr-4">
+                                <a href="#">Login</a>    
+                            </div>
+                        </td>
+                        <td>
+                            <div class="mr-4">
+                                <a href="#">SignUp</a>    
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-            <a class="ml-2 m-2 signup " href="">SignUp</a>
-            <a class="ml-2 m-2 login " href="">Login</a>
-        </div>
 
+            <!-- <div class="card-group text-right" style="background-color:rgb(0,0,0,0);width:410px">
+                <div class="card col-6 col-sm-3" style="background-color:rgb(0,0,0,0);border:none">
+                    <form action="" method="post">  
+                        <div class="dropdown" style="background-color:rgb(0,0,0,0);">
+                            <button style="background-color:rgb(0,0,0,0);border:none;" class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="" src="img/search.png" width="30px">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">
+                                    <input type="text" name="t1" placeholder="Search" class="text-left" style="padding:4px;">
+                                    <button class="btn btn-success w-25">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card col-6 col-sm-3 my-2" style="background-color:rgb(0,0,0,0);border:none">
+                    <img class="" src="img/about.png" width="30px">
+                </div>
+                <div class="card col-6 col-sm-3 my-2" style="background-color:rgb(0,0,0,0);border:none">
+                    <a href="../"><img class="" src="img/global.png" width="30px"></a>
+                </div>
+                <div class="card col-6 col-sm-3 my-2" style="background-color:rgb(0,0,0,0);border:none">
+                   <a href="#">SignUp</a>    
+                </div>
+                <div class="card col-6 col-sm-3 my-2" style="background-color:rgb(0,0,0,0);border:none">
+                   <a href="#">Login</a>    
+                </div>
+            </div>
+ -->
         <!-- style="float: right;" -->
-        <div class="collapse navbar-collapse text-left navstyle"  id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-left navstyle float-left"  id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto my-3 " dir="ltr">
 
                 <li class="nav-item active text-left">
-                    <a class="nav-link" href="index.php">Home Page<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">Home Page<span class="sr-only"></span></a>
                 </li>
 
 
@@ -356,8 +430,43 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         </div>
     </div>
     <!--end ticker-->
+    
 
-    <div class="container-fluid py-5 center_home_design" dir="ltr">
+<div class="card-group card_group_style py-5">
+
+  <div class="card text-center card_style1">
+    <div class="card-body">
+    <img class="my-4" src="img/Page-1.png" alt="Card image cap">
+    <a href="bids.php"><p class="card-text my-3 homepage_text">Bidding</p></a>
+    </div>
+  </div>
+  
+  <div class="card text-center card_style2">
+    <div class="card-body">
+    <img class="my-4" src="img/broken-link.png" alt="Card image cap">
+    <a href="#"><p class="card-text my-3 homepage_text">Important links</p></a>
+    </div>
+  </div>
+
+  <div class="card text-center card_style3">
+    <div class="card-body">
+    <img class="my-4" src="img/question (1).png" alt="Card image cap">
+    <a href="question.php"><p class="card-text my-3 homepage_text">Frequently Asked Questions</p></a>
+    </div>
+  </div>
+
+  <div class="card text-center card_style4">
+    <div class="card-body">
+    <img class="my-4" src="img/file.png" alt="Card image cap">
+    <a href="dawnload_center.php"><p class="card-text my-3 homepage_text">Download Center</p></a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- 
+    <div class="container-fluid py-5 center_home_design">
         <div class="carddesignNew">
             <div class="row">
                 <div class="col-6 col-sm-4 card1">
@@ -386,7 +495,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 <div class="card notecontainer d-flex justify-content-center" style="background-image: URL('img/Repeat Grid 8.png');">
@@ -521,79 +630,46 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div id="box" class="box slider_footer_end d-flex justify-content-center" style="background-image:url('img/RepeatGrid28.png'); height: 250px;">
-                        <p id="testhide">Municipal Council decision</p>
-                        <div id="cover" class="covernew p-5 d-flex justify-content-center">
-                            <!-- <a href="#"> -->
-                            <table class="text-left my-4">
-                                <tr>
-                                    <th class="font_h hover_up_slider_card"> asd kasjd ksjad asd kasjd ksjad </th>
-                                </tr>
-                                <tr>
-                                    <td class="text_up_hover_card">asd kasjd ksjad </td>
-                                </tr>
-                            </table>
-                            <!-- </a> -->
-                            <p class="btn btnmore">More</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div id="box" class="box slider_footer_end d-flex justify-content-center" style="background-image:url('img/RepeatGrid28.png'); height: 250px;">
-                        <p id="testhide">Municipal Council decision</p>
-                        <div id="cover" class="covernew p-5 d-flex justify-content-center">
-                            <!-- <a href="#"> -->
-                            <table class="text-left my-4">
-                                <tr>
-                                    <th class="font_h hover_up_slider_card"> asd kasjd ksjad </th>
-                                </tr>
-                                <tr>
-                                    <td class="text_up_hover_card">asd kasjd ksjad asd kasjd ksjad </td>
-                                </tr>
-                            </table>
-                            <!-- </a> -->
-                            <p class="btn btnmore">More</p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
+
+            <div class="">
             <div class="div_upper_foot">
-                <div class="row text-left my-4 p-5">
-                    <div class="col-12 col-sm-12 p-2 title_box rotate_rate">
+                <div class="row text-left p-4">
+                    <div class="col-12 col-sm-12 title_box rotate_rate">
                     <p>
                     Vote
                     </p>    
                 </div>
-                    <div class="col-12 col-sm-12 p-3">
-                        <table class="d-flex justify-content-end table_rates">
-                            <tr>
-                                <td class="rotate_rate"><label>Good</label><input type="radio" name="r" id=""></td>
-                                <td class="rotate_rate"><label>Very Good</label><input type="radio" name="r" id=""></td>
-                                <td class="rotate_rate"><label>Excellent</label><input type="radio" name="r" id=""></td>
-                                <td class="rotate_rate">? What do you think of the design</td>
-                            </tr>
-                        </table>
+                    <div class="col-12 col-sm-12 container">
+                        <!-- <table class="row d-flex justify-content-end table_rates">
+                            <tr> -->
+                                <label class="rotate_rate">Good</label><input type="radio" name="r" id="">
+                                <label class="rotate_rate">Very Good</label><input type="radio" name="r" id="">
+                                <label class="rotate_rate">Excellent</label><input type="radio" name="r" id="">
+                                <label class="rotate_rate"> ? What do you think of the design </label>
+                            <!-- </tr> -->
+                        <!-- </table> -->
                     </div>
-                    <div class="col-12 col-sm-12 p-2 d-flex justify-content-end">
-                        <table class="table_rates2">
-                            <tr>
-                                <td class="rotate_rate">
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i> <a class="rotate_rate" href="#">Results</a>
-                                </td>
-                                <td class="rotate_rate">
-                                    <i class="fa fa-arrow-right" aria-hidden="true"></i> <a class="rotate_rate" href="#">Vote</a>
-                                </td>
-                            </tr>
-                        </table>
+                    <div class="col-12 col-sm-12 d-flex justify-content-end">
+                        <!-- <table class="table_rates2"> -->
+                            <!-- <tr> -->
+                                <!-- <td class="rotate_rate"> -->
+                                    <i class="fa fa-arrow-right my-2 ml-2" aria-hidden="true"></i> 
+                                    <a class="rotate_rate" href="#">Results</a>
+                                <!-- </td> -->
+                                <!-- <td class="rotate_rate"> -->
+                                    <i class="fa fa-arrow-right my-2 ml-2 mr-2" aria-hidden="true"></i> 
+                                    <a class="rotate_rate" href="#">Vote</a>
+                                <!-- </td> -->
+                            <!-- </tr> -->
+                        <!-- </table> -->
                     </div>
                 </div>
             </div>
         </div>
-
-       
     </div>
+</div>
   
 
     <div class="card" style="border:none;background-color: rgba(224,224,225,0.34); margin-top:-48px ;">
@@ -820,27 +896,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
     </script>
 
     <script>
-        // $(window).on("load", function() {
-        //     $(window).scroll(function() {
-        //         var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-        //         $(".fade").each(function() {
-        //             /* Check the location of each desired element */
-        //             var objectBottom = $(this).offset().top + $(this).outerHeight();
-
-        //             /* If the element is completely within bounds of the window, fade it in */
-        //             if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-        //                 if ($(this).css("opacity") == 0) {
-        //                     $(this).fadeTo(100, 1);
-        //                 }
-        //             } else { //object goes out of view (scrolling up)
-        //                 if ($(this).css("opacity") == 1) {
-        //                     $(this).fadeTo(100, 0);
-        //                 }
-        //             }
-        //         });
-        //     }).scroll(); //invoke scroll-handler on page-load
-        // });
-
         $(document).ready(function() {
             $('.fade').each(function(i) {
                 $(this).animate({
@@ -849,25 +904,6 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 }, 1000);
             });
         });
-
-        // //image fade in
-        // //set image display none
-        // $("img").css("display", "none");
-        // //call the image with fadeIn effect
-        // $("img").fadeIn(5000, function() {
-        //     $(this).css("display", "normal");
-        // });
-
-
-        // $(document).ready(function() {
-        //     $('div').fadeOut(1);
-        //     $('div').fadeIn(1000);
-        // });
-
-
-        // $(document).ready(function() {
-        //     $('div.hidden').fadeIn(1000).removeClass('hidden');
-        // });
     </script>
 
     <script>
@@ -1008,6 +1044,36 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 340,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 365,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 355,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },{
+                breakpoint: 380,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 2,
                 }
             }, {
                 breakpoint: 480,
