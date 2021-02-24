@@ -181,8 +181,8 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         السياحة
                      </a>
                     <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">السياحة عن السلط</a>
-                        <a class="dropdown-item" href="#">السياحة بالاردن</a>
+                    <a class="dropdown-item" href="from_al-salt.php">السياحة عن السلط</a>
+                        <a class="dropdown-item" href="from_al-salt.php">السياحة بالاردن</a>
                     </div>
                 </li>
 
