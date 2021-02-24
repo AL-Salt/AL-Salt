@@ -87,7 +87,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
         /* INNER CONTAINER */
         .ticker-wrap {
             width: 100%;
-            margin-left: 100%;
+            margin-left: -100%;
             /* padding-left: 100%; */
             /* Push contents to right side of screen */
         }
@@ -194,7 +194,7 @@ Add slick.js before your closing <body> tag, after jQuery (requires jQuery 1.7 +
                         
                         <td>
                             <div class="mr-4">
-                                <img class="" src="img/about.png" width="30px">
+                                <a href="question.php"><img class="" src="img/about.png" width="30px"></a>
                             </div>
                         </td>
                         <td>
